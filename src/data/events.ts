@@ -1631,4 +1631,4 @@ export const events: Event[] =
         "date": "December 5, 2023",
         "eventDescription": "OpenAI announces GPT-5, a major advancement in AI technology."
     }
-].filter(event => event.eventImage && event.date);
+].filter(event =>  event.date);
