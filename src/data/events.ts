@@ -1,1263 +1,1634 @@
 import { Event } from '../types/Event';
 
 // Filter out events without images and format dates consistently
-export const events: Event[] = [
+export const events: Event[] = 
+    [
+    {
+        "date": "January 1, 1983",
+        "eventDescription": "The first mobile phone call is made in the UK."
+    },
+    {
+        "date": "March 1, 1983",
+        "eventDescription": "Swatch introduces its first watch."
+    },
+    {
+        "date": "March 2, 1983",
+        "eventDescription": "Compact discs (CDs) are launched in Europe."
+    },
+    {
+        "date": "April 14, 1983",
+        "eventDescription": "David Bowie's Let's Dance album is released."
+    },
+    {
+        "date": "May 20, 1983",
+        "eventDescription": "Every Breath You Take by The Police becomes a global hit."
+    },
+    {
+        "date": "May 25, 1983",
+        "eventDescription": "Star Wars: Return of the Jedi is released."
+    },
+    {
+        "date": "June 15, 1983",
+        "eventDescription": "Blackadder debuts on British television."
+    },
+    {
+        "date": "October 4, 1983",
+        "eventDescription": "Richard Noble breaks the land speed record in Thrust 2."
+    },
+    {
+        "date": "October 25, 1983",
+        "eventDescription": "Microsoft Word is released for MS-DOS."
+    },
+    {
+        "date": "November 5, 1983",
+        "eventDescription": "Carmen becomes the first opera shown on Channel 4."
+    },
+    {
+        "date": "January 24, 1984",
+        "eventDescription": "The Apple Macintosh computer is launched."
+    },
+    {
+        "date": "February 26, 1984",
+        "eventDescription": "Spitting Image debuts on UK television."
+    },
+    {
+        "date": "April 21, 1984",
+        "eventDescription": "The UK introduces the £1 coin."
+    },
+    {
+        "date": "June 6, 1984",
+        "eventDescription": "Tetris is developed in the Soviet Union."
+    },
+    {
+        "date": "June 8, 1984",
+        "eventDescription": "Ghostbusters is released in cinemas."
+    },
+    {
+        "date": "June 22, 1984",
+        "eventDescription": "The Karate Kid is released."
+    },
+    {
+        "date": "June 25, 1984",
+        "eventDescription": "Prince’s Purple Rain album is released."
+    },
+    {
+        "date": "October 12, 1984",
+        "eventDescription": "Margaret Thatcher survives the Brighton hotel bombing."
+    },
+    {
+        "date": "October 26, 1984",
+        "eventDescription": "The Terminator premieres in cinemas."
+    },
+    {
+        "date": "November 25, 1984",
+        "eventDescription": "Band Aid records Do They Know It’s Christmas?."
+    },
+    {
+        "date": "January 10, 1985",
+        "eventDescription": "The Sinclair C5 electric vehicle is launched in the UK."
+    },
+    {
+        "date": "February 19, 1985",
+        "eventDescription": "The first episode of EastEnders airs."
+    },
+    {
+        "date": "April 7, 1985",
+        "eventDescription": "Wham! becomes the first Western pop group to tour China."
+    },
+    {
+        "date": "April 15, 1985",
+        "eventDescription": "Madonna's Like a Virgin tour begins."
+    },
+    {
+        "date": "April 23, 1985",
+        "eventDescription": "Coca-Cola launches New Coke (and quickly reverts to the original formula)."
+    },
+    {
+        "date": "July 3, 1985",
+        "eventDescription": "Back to the Future is released."
+    },
+    {
+        "date": "July 13, 1985",
+        "eventDescription": "Live Aid concerts are held."
+    },
+    {
+        "date": "October 18, 1985",
+        "eventDescription": "Nintendo releases the NES (Nintendo Entertainment System) in the US."
+    },
+    {
+        "date": "October 19, 1985",
+        "eventDescription": "The first Blockbuster video rental store opens in the US."
+    },
+    {
+        "date": "November 20, 1985",
+        "eventDescription": "Microsoft releases Windows 1.0."
+    },
+    {
+        "date": "January 28, 1986",
+        "eventDescription": "The Space Shuttle Challenger disaster occurs shortly after launch."
+    },
+    {
+        "date": "February 3, 1986",
+        "eventDescription": "Pixar Animation Studios is founded."
+    },
+    {
+        "date": "April 26, 1986",
+        "eventDescription": "The Chernobyl nuclear disaster occurs in the Soviet Union."
+    },
+    {
+        "date": "May 16, 1986",
+        "eventDescription": "Top Gun is released in cinemas."
+    },
+    {
+        "date": "June 22, 1986",
+        "eventDescription": "Diego Maradona's 'Hand of God' goal is scored during the FIFA World Cup."
+    },
+    {
+        "date": "September 15, 1986",
+        "eventDescription": "The Oprah Winfrey Show debuts nationally in the United States."
+    },
+    {
+        "date": "October 15, 1986",
+        "eventDescription": "The BBC launches its daytime television schedule."
+    },
+    {
+        "date": "November 22, 1986",
+        "eventDescription": "Mike Tyson becomes the youngest heavyweight boxing champion."
+    },
+    {
+        "date": "December 11, 1986",
+        "eventDescription": "The Color of Money premieres in cinemas."
+    },
+    {
+        "date": "December 19, 1986",
+        "eventDescription": "The animated film An American Tail is released."
+    },
+    {
+        "date": "March 6, 1987",
+        "eventDescription": "The ferry MS Herald of Free Enterprise capsizes near Zeebrugge, Belgium."
+    },
+    {
+        "date": "March 12, 1987",
+        "eventDescription": "Les Misérables premieres on Broadway."
+    },
+    {
+        "date": "April 19, 1987",
+        "eventDescription": "The Simpsons debut as a short on The Tracey Ullman Show."
+    },
+    {
+        "date": "May 27, 1987",
+        "eventDescription": "The U2 album The Joshua Tree tops charts worldwide."
+    },
+    {
+        "date": "July 1, 1987",
+        "eventDescription": "The Single European Act comes into effect, paving the way for the European Union."
+    },
+    {
+        "date": "August 31, 1987",
+        "eventDescription": "Princess Diana and Prince Charles' marriage problems become public knowledge."
+    },
+    {
+        "date": "October 19, 1987",
+        "eventDescription": "The global stock market crash, known as Black Monday, occurs."
+    },
+    {
+        "date": "October 30, 1987",
+        "eventDescription": "George Michael releases his debut solo album, Faith."
+    },
+    {
+        "date": "December 3, 1987",
+        "eventDescription": "The film Moonstruck is released in theaters."
+    },
+    {
+        "date": "January 25, 1988",
+        "eventDescription": "The Phantom of the Opera opens on Broadway."
+    },
+    {
+        "date": "March 6, 1988",
+        "eventDescription": "Mothers of Plaza de Mayo march in Buenos Aires."
+    },
+    {
+        "date": "April 14, 1988",
+        "eventDescription": "The film Beetlejuice is released."
+    },
+    {
+        "date": "June 23, 1988",
+        "eventDescription": "James Hansen testifies to Congress about global warming."
+    },
+    {
+        "date": "July 12, 1988",
+        "eventDescription": "Die Hard is released, introducing Bruce Willis as John McClane."
+    },
+    {
+        "date": "August 8, 1988",
+        "eventDescription": "The 8888 Uprising occurs in Myanmar."
+    },
+    {
+        "date": "September 29, 1988",
+        "eventDescription": "The Canadian Free Trade Agreement is signed."
+    },
+    {
+        "date": "November 15, 1988",
+        "eventDescription": "The first ever Walmart Supercenter opens in Missouri, USA."
+    },
+    {
+        "date": "November 30, 1988",
+        "eventDescription": "World AIDS Day is observed for the first time."
+    },
+    {
+        "date": "December 2, 1988",
+        "eventDescription": "Benazir Bhutto becomes the Prime Minister of Pakistan."
+    },
+    {
+        "date": "January 7, 1989",
+        "eventDescription": "Akihito becomes Emperor of Japan following the death of Emperor Hirohito."
+    },
+    {
+        "date": "March 24, 1989",
+        "eventDescription": "The Exxon Valdez oil spill occurs off the coast of Alaska."
+    },
+    {
+        "date": "May 12, 1989",
+        "eventDescription": "Nintendo releases the Game Boy handheld console in Japan."
+    },
+    {
+        "date": "June 4, 1989",
+        "eventDescription": "The Tiananmen Square massacre occurs in Beijing, China."
+    },
+    {
+        "date": "July 5, 1989",
+        "eventDescription": "Seinfeld debuts on NBC as The Seinfeld Chronicles."
+    },
+    {
+        "date": "July 14, 1989",
+        "eventDescription": "Tim Burton's Batman premieres, with Michael Keaton as Batman and Jack Nicholson as the Joker."
+    },
+    {
+        "date": "October 16, 1989",
+        "eventDescription": "Wayne Gretzky breaks the NHL’s all-time scoring record."
+    },
+    {
+        "date": "November 9, 1989",
+        "eventDescription": "The Berlin Wall falls, marking the beginning of German reunification."
+    },
+    {
+        "date": "December 3, 1989",
+        "eventDescription": "The Cold War officially ends at the Malta Summit."
+    },
+    {
+        "date": "December 17, 1989",
+        "eventDescription": "The first full-length episode of The Simpsons airs."
+    },
+    {
+        "date": "February 11, 1990",
+        "eventDescription": "Nelson Mandela is released from prison after 27 years."
+    },
+    {
+        "date": "March 15, 1990",
+        "eventDescription": "Mikhail Gorbachev becomes President of the Soviet Union."
+    },
+    {
+        "date": "May 22, 1990",
+        "eventDescription": "Microsoft releases Windows 3.0."
+    },
+    {
+        "date": "July 10, 1990",
+        "eventDescription": "The FIFA World Cup Final sees West Germany beat Argentina."
+    },
+    {
+        "date": "August 2, 1990",
+        "eventDescription": "Iraq invades Kuwait, starting the Gulf War."
+    },
+    {
+        "date": "October 3, 1990",
+        "eventDescription": "Germany is reunified."
+    },
+    {
+        "date": "November 12, 1990",
+        "eventDescription": "The first known web browser, WorldWideWeb, is developed."
+    },
+    {
+        "date": "November 29, 1990",
+        "eventDescription": "Margaret Thatcher resigns as Prime Minister of the United Kingdom."
+    },
+    {
+        "date": "December 25, 1990",
+        "eventDescription": "The World Wide Web becomes publicly available."
+    },
+    {
+        "date": "January 1, 1991",
+        "eventDescription": "The Soviet Union officially dissolves."
+    },
+    {
+        "date": "March 15, 1991",
+        "eventDescription": "Four LAPD officers are filmed beating Rodney King, leading to widespread protests."
+    },
+    {
+        "date": "June 17, 1991",
+        "eventDescription": "South Africa repeals its apartheid laws."
+    },
+    {
+        "date": "July 31, 1991",
+        "eventDescription": "START I is signed by the United States and the Soviet Union."
+    },
+    {
+        "date": "August 6, 1991",
+        "eventDescription": "The first website goes live, created by Tim Berners-Lee."
+    },
+    {
+        "date": "August 23, 1991",
+        "eventDescription": "The World Wide Web becomes publicly accessible."
+    },
+    {
+        "date": "September 24, 1991",
+        "eventDescription": "Nirvana releases their iconic album, Nevermind."
+    },
+    {
+        "date": "November 7, 1991",
+        "eventDescription": "Magic Johnson announces his retirement from the NBA due to HIV."
+    },
+    {
+        "date": "November 24, 1991",
+        "eventDescription": "Freddie Mercury dies of AIDS-related illness."
+    },
+    {
+        "date": "December 26, 1991",
+        "eventDescription": "The Soviet Union is officially dissolved."
+    },
+    {
+        "date": "February 7, 1992",
+        "eventDescription": "The Maastricht Treaty is signed, forming the European Union."
+    },
+    {
+        "date": "April 29, 1992",
+        "eventDescription": "The Los Angeles riots begin following the Rodney King verdict."
+    },
+    {
+        "date": "May 7, 1992",
+        "eventDescription": "The Severn Bridge is officially opened in the UK."
+    },
+    {
+        "date": "June 20, 1992",
+        "eventDescription": "Denmark wins the UEFA European Championship."
+    },
+    {
+        "date": "July 25, 1992",
+        "eventDescription": "The Summer Olympics open in Barcelona, Spain."
+    },
+    {
+        "date": "August 24, 1992",
+        "eventDescription": "Hurricane Andrew strikes Florida, causing widespread destruction."
+    },
+    {
+        "date": "September 12, 1992",
+        "eventDescription": "Dr. Mae Jemison becomes the first Black woman to travel into space."
+    },
+    {
+        "date": "October 4, 1992",
+        "eventDescription": "Cartoon Network launches in the United States."
+    },
+    {
+        "date": "November 3, 1992",
+        "eventDescription": "Bill Clinton is elected as the 42nd President of the United States."
+    },
+    {
+        "date": "December 3, 1992",
+        "eventDescription": "The first SMS text message is sent."
+    },
+    {
+        "date": "January 20, 1993",
+        "eventDescription": "Bill Clinton is inaugurated as the 42nd President of the United States."
+    },
+    {
+        "date": "March 9, 1993",
+        "eventDescription": "The World Trade Center is bombed in New York City."
+    },
+    {
+        "date": "April 22, 1993",
+        "eventDescription": "The murder of Stephen Lawrence in London ignites discussions about institutional racism in the UK."
+    },
+    {
+        "date": "May 24, 1993",
+        "eventDescription": "Eritrea gains independence from Ethiopia after a 30-year war."
+    },
+    {
+        "date": "June 23, 1993",
+        "eventDescription": "Lorena Bobbitt cuts off her husband's penis, sparking worldwide media coverage."
+    },
+    {
+        "date": "July 16, 1993",
+        "eventDescription": "The movie Jurassic Park is released in the UK."
+    },
+    {
+        "date": "October 1, 1993",
+        "eventDescription": "The Maastricht Treaty comes into effect, establishing the European Union."
+    },
+    {
+        "date": "October 31, 1993",
+        "eventDescription": "River Phoenix dies of a drug overdose outside The Viper Room in Hollywood."
+    },
+    {
+        "date": "November 12, 1993",
+        "eventDescription": "Michael Jackson's Dangerous World Tour ends."
+    },
+    {
+        "date": "December 15, 1993",
+        "eventDescription": "Schindler's List is released in theaters."
+    },
     {
         "date": "January 1, 1994",
-        "eventDescription": "The North American Free Trade Agreement (NAFTA) goes into effect.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/NAFTA_signing.jpg/800px-NAFTA_signing.jpg"
+        "eventDescription": "The North American Free Trade Agreement (NAFTA) goes into effect."
     },
     {
-        "date": "January 19, 1994",
-        "eventDescription": "The temperature in New Whiteland, Indiana, plunges to -36°F, setting a state record.",
-        "eventImage": ""
+        "date": "February 3, 1994",
+        "eventDescription": "The Space Shuttle Discovery completes its first flight."
     },
     {
-        "date": "January 25, 1994",
-        "eventDescription": "The Clementine spacecraft is launched from Vandenberg Air Force Base in California.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Clementine_spacecraft_diagram.jpg/800px-Clementine_spacecraft_diagram.jpg"
-    },
-    {
-        "date": "January 31, 1994",
-        "eventDescription": "The Dow Jones Industrial Average closes at a record 3,978.36.",
-        "eventImage": ""
-    },
-    {
-        "date": "February 12, 1994",
-        "eventDescription": "Edvard Munch's \"The Scream\" is stolen from a museum in Oslo, Norway.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/The_Scream.jpg/800px-The_Scream.jpg"
-    },
-    {
-        "date": "February 28, 1994",
-        "eventDescription": "The Brady Law, requiring background checks for handgun purchases, goes into effect in the U.S.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/James_Brady_Press_Secretary.jpg/800px-James_Brady_Press_Secretary.jpg"
-    },
-    {
-        "date": "March 7, 1994",
-        "eventDescription": "The first group of women assigned to a U.S. Navy combat ship reports for duty.",
-        "eventImage": ""
-    },
-    {
-        "date": "March 23, 1994",
-        "eventDescription": "Howard Stern announces his candidacy for Governor of New York under the Libertarian Party.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Howard_Stern_2012.jpg/800px-Howard_Stern_2012.jpg"
-    },
-    {
-        "date": "April 4, 1994",
-        "eventDescription": "56,706 fans attend the largest opening day game at Yankee Stadium.",
-        "eventImage": ""
-    },
-    {
-        "date": "April 8, 1994",
-        "eventDescription": "The U.S. military announces a ban on smoking in the workplace.",
-        "eventImage": ""
-    },
-    {
-        "date": "April 25, 1994",
-        "eventDescription": "Southern California experiences a rare snowfall, with 14 inches falling in one day.",
-        "eventImage": ""
-    },
-    {
-        "date": "April 27, 1994",
-        "eventDescription": "Former President Richard Nixon is buried at the Nixon Library in California.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Richard_Nixon_presidential_portrait.jpg/800px-Richard_Nixon_presidential_portrait.jpg"
-    },
-    {
-        "date": "May 6, 1994",
-        "eventDescription": "The Channel Tunnel, connecting England and France, officially opens.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Eurotunnel_poster.jpg/800px-Eurotunnel_poster.jpg"
-    },
-    {
-        "date": "June 12, 1994",
-        "eventDescription": "Nicole Brown Simpson and Ron Goldman are found murdered; O.J. Simpson becomes a suspect.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8b/Nicole_Brown_Simpson.jpg/800px-Nicole_Brown_Simpson.jpg"
+        "date": "April 6, 1994",
+        "eventDescription": "The Rwandan genocide begins."
     },
     {
         "date": "June 17, 1994",
-        "eventDescription": "O.J. Simpson leads police on a low-speed chase in a white Ford Bronco.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/O.J._Simpson_white_Bronco_chase.jpg/800px-O.J._Simpson_white_Bronco_chase.jpg"
+        "eventDescription": "O.J. Simpson's infamous Bronco chase occurs."
     },
     {
         "date": "July 5, 1994",
-        "eventDescription": "Amazon.com is founded by Jeff Bezos.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Jeff_Bezos_at_Amazon_Spheres_Grand_Opening_in_Seattle_-_2018_%2839074799225%29_%28cropped%29.jpg/800px-Jeff_Bezos_at_Amazon_Spheres_Grand_Opening_in_Seattle_-_2018_%2839074799225%29_%28cropped%29.jpg"
-    },
-    {
-        "date": "July 8, 1994",
-        "eventDescription": "Kim Jong-il assumes leadership in North Korea after the death of his father, Kim Il-sung.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Kim_Jong-il_1982.jpg/800px-Kim_Jong-il_1982.jpg"
+        "eventDescription": "Amazon is founded by Jeff Bezos."
     },
     {
         "date": "August 12, 1994",
-        "eventDescription": "Woodstock '94 begins in Saugerties, New York, celebrating the 25th anniversary of the original festival.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Woodstock_94_logo.svg/800px-Woodstock_94_logo.svg.png"
-    },
-    {
-        "date": "September 19, 1994",
-        "eventDescription": "\"ER\" premieres on NBC, becoming a major hit.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/en/thumb/9/99/ER_TV_Series_%28promotional_photo%29.jpg/800px-ER_TV_Series_%28promotional_photo%29.jpg"
-    },
-    {
-        "date": "September 22, 1994",
-        "eventDescription": "\"Friends\" debuts on NBC, introducing audiences to the iconic group of New Yorkers.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bc/Friends_logo.svg/800px-Friends_logo.svg.png"
+        "eventDescription": "Woodstock '94 is held in New York."
     },
     {
         "date": "October 14, 1994",
-        "eventDescription": "Quentin Tarantino's \"Pulp Fiction\" is released, revitalizing independent cinema.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3b/Pulp_Fiction_%281994%29_poster.jpg/800px-Pulp_Fiction_%281994%29_poster.jpg"
+        "eventDescription": "Pulp Fiction is released in theaters."
     },
     {
-        "date": "November 5, 1994",
-        "eventDescription": "George Foreman, at age 45, becomes the oldest heavyweight boxing champion by defeating Michael Moorer.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/George_Foreman_1994.jpg/800px-George_Foreman_1994.jpg"
+        "date": "November 13, 1994",
+        "eventDescription": "Sweden wins Eurovision Song Contest with 'Take Me to Your Heaven.'"
     },
     {
         "date": "December 15, 1994",
-        "eventDescription": "The first version of Netscape Navigator is released, popularizing web browsing.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f8/Netscape_Navigator_1.0.png/800px-Netscape_Navigator_1.0.png"
+        "eventDescription": "The PlayStation is released in Japan."
     },
     {
-        "date": "January 1, 1995",
-        "eventDescription": "The World Trade Organization (WTO) is established.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/WTO_Headquarters_Geneva.jpg/800px-WTO_Headquarters_Geneva.jpg"
-    },
-    {
-        "date": "February 16, 1995",
-        "eventDescription": "\"The Brady Bunch Movie\" is released, satirizing the 1970s TV show.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0c/The_Brady_Bunch_Movie.jpg/800px-The_Brady_Bunch_Movie.jpg"
-    },
-    {
-        "date": "March 31, 1995",
-        "eventDescription": "Selena Quintanilla-Pérez, the \"Queen of Tejano music,\" is tragically murdered.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/en/thumb/9/96/Selena_-_Live_%281993%29.jpg/800px-Selena_-_Live_%281993%29.jpg"
+        "date": "March 20, 1995",
+        "eventDescription": "The Tokyo subway sarin gas attack is carried out by the Aum Shinrikyo cult."
     },
     {
         "date": "April 19, 1995",
-        "eventDescription": "The Oklahoma City bombing occurs, killing 168 people.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Oklahoma_City_bombing_memorial.jpg/800px-Oklahoma_City_bombing_memorial.jpg"
+        "eventDescription": "The Oklahoma City bombing occurs, killing 168 people."
     },
     {
-        "date": "May 23, 1995",
-        "eventDescription": "\"Braveheart,\" directed by and starring Mel Gibson, is released.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/en/thumb/5/59/Braveheart_poster.jpg/800px-Braveheart_poster.jpg"
-    },
-    {
-        "date": "May 23, 1995",
-        "eventDescription": "\"Braveheart,\" directed by and starring Mel Gibson, is released.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/en/thumb/5/59/Braveheart_poster.jpg/800px-Braveheart_poster.jpg"
+        "date": "May 14, 1995",
+        "eventDescription": "The Dalai Lama visits the UK for a lecture tour."
     },
     {
         "date": "June 16, 1995",
-        "eventDescription": "\"Batman Forever,\" featuring Val Kilmer as Batman, premieres.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/en/thumb/d/de/Batman_Forever_poster.jpg/800px-Batman_Forever_poster.jpg"
+        "eventDescription": "Michael Jackson releases his double album HIStory."
     },
     {
-        "date": "July 5, 1995",
-        "eventDescription": "The Grateful Dead perform their final concert with Jerry Garcia.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Grateful_Dead_1995.jpg/800px-Grateful_Dead_1995.jpg"
+        "date": "July 16, 1995",
+        "eventDescription": "Amazon opens its online bookstore to the public."
     },
     {
-        "date": "August 9, 1995",
-        "eventDescription": "Jerry Garcia, lead guitarist of the Grateful Dead, passes away.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/en/thumb/9/96/Jerry_Garcia_smiling.jpg/800px-Jerry_Garcia_smiling.jpg"
-    },
-    {
-        "date": "September 3, 1995",
-        "eventDescription": "eBay is founded by Pierre Omidyar.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Pierre_Omidyar_2011.jpg/800px-Pierre_Omidyar_2011.jpg"
+        "date": "August 24, 1995",
+        "eventDescription": "Microsoft releases Windows 95."
     },
     {
         "date": "October 3, 1995",
-        "eventDescription": "O.J. Simpson is acquitted of the murders of Nicole Brown Simpson and Ron Goldman.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/O.J._Simpson_white_Bronco_chase.jpg/800px-O.J._Simpson_white_Bronco_chase.jpg"
+        "eventDescription": "O.J. Simpson is acquitted of the murders of Nicole Brown Simpson and Ron Goldman."
     },
     {
         "date": "November 22, 1995",
-        "eventDescription": "\"Toy Story,\" the first entirely computer-animated feature film, is released by Pixar.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/en/thumb/1/13/Toy_Story.jpg/800px-Toy_Story.jpg"
+        "eventDescription": "The first full-length computer-animated feature film, Toy Story, is released by Pixar."
     },
     {
-        "date": "December 15, 1995",
-        "eventDescription": "\"Sense and Sensibility,\" directed by Ang Lee, premieres.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/en/thumb/6/60/Sense_and_Sensibility_poster.jpg/800px-Sense_and_Sensibility_poster.jpg"
+        "date": "December 6, 1995",
+        "eventDescription": "Michael Schumacher wins his second Formula One World Championship."
+    },
+    {
+        "date": "December 20, 1995",
+        "eventDescription": "NATO begins deploying troops to Bosnia and Herzegovina to enforce peace."
     },
     {
         "date": "January 3, 1996",
-        "eventDescription": "The Motorola StarTAC, one of the first flip phones, is released.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Motorola_StarTAC_flip.jpg/800px-Motorola_StarTAC_flip.jpg"
+        "eventDescription": "The Motorola StarTAC, the first flip phone, is released."
     },
     {
-        "date": "February 17, 1996",
-        "eventDescription": "Chess champion Garry Kasparov defeats IBM's Deep Blue computer.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Garry_Kasparov_WSB_2004.jpg/800px-Garry_Kasparov_WSB_2004.jpg"
+        "date": "March 13, 1996",
+        "eventDescription": "The Dunblane massacre occurs in Scotland, leading to stricter gun laws in the UK."
     },
     {
-        "date": "March 8, 1996",
-        "eventDescription": "\"Fargo,\" directed by the Coen brothers, is released.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/en/thumb/3/33/Fargo_%281996_film_poster%29.jpg/800px-Fargo_%281996_film_poster%29.jpg"
-    },
-    {
-        "date": "April 3, 1996",
-        "eventDescription": "The Unabomber, Ted Kaczynski, is arrested in Montana.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Ted_Kaczynski_mugshot.jpg/800px-Ted_Kaczynski_mugshot.jpg"
-    },
-    {
-        "date": "May 10, 1996",
-        "eventDescription": "\"Twister,\" a disaster film about storm chasers, premieres.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/en/thumb/1/19/Twisterposter.jpg/800px-Twisterposter.jpg"
-    },
-    {
-        "date": "June 25, 1996",
-        "eventDescription": "The Khobar Towers bombing in Saudi Arabia kills 19 U.S. servicemen.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Khobar_Towers_aftermath.jpg/800px-Khobar_Towers_aftermath.jpg"
+        "date": "June 23, 1996",
+        "eventDescription": "Scotland hosts Euro 1996, where England reaches the semi-finals."
     },
     {
         "date": "July 5, 1996",
-        "eventDescription": "Dolly the sheep, the first mammal cloned from an adult cell, is born.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Dolly_the_sheep_stuffed.jpg/800px-Dolly_the_sheep_stuffed.jpg"
+        "eventDescription": "Dolly the sheep, the first cloned mammal, is announced to the world."
+    },
+    {
+        "date": "July 19, 1996",
+        "eventDescription": "The Summer Olympics open in Atlanta, Georgia."
     },
     {
         "date": "August 28, 1996",
-        "eventDescription": "Prince Charles and Princess Diana finalize their divorce.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Diana_Princess_of_Wales_1995.jpg/800px-Diana_Princess_of_Wales_1995.jpg"
+        "eventDescription": "Charles and Diana, the Prince and Princess of Wales, finalize their divorce."
     },
     {
-        "date": "September 13, 1996",
-        "eventDescription": "Rapper Tupac Shakur dies from gunshot wounds sustained in a Las Vegas shooting.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Tupac_Shakur_1993.jpg/800px-Tupac_Shakur_1993.jpg"
-    },
-    {
-        "date": "October 23, 1996",
-        "eventDescription": "The Fox News Channel is launched.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Fox_News_Channel_logo.svg/800px-Fox_News_Channel_logo.svg.png"
+        "date": "September 7, 1996",
+        "eventDescription": "Tupac Shakur is fatally shot in Las Vegas."
     },
     {
         "date": "November 19, 1996",
-        "eventDescription": "\"Space Jam,\" starring Michael Jordan and the Looney Tunes characters, is released.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/en/thumb/1/14/Space_jam.jpg/800px-Space_jam.jpg"
+        "eventDescription": "The first DVD players are released in Japan."
     },
     {
-        "date": "December 20, 1996",
-        "eventDescription": "Carl Sagan, renowned astronomer and author, passes away.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Carl_Sagan_Planetary_Society.JPG/800px-Carl_Sagan_Planetary_Society.JPG"
+        "date": "December 25, 1996",
+        "eventDescription": "JonBenét Ramsey is found murdered in her family's home in Boulder, Colorado."
     },
     {
-        "date": "January 20, 1997",
-        "eventDescription": "Bill Clinton is inaugurated for his second term as U.S. President.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Bill_Clinton_3x4.jpg/800px-Bill_Clinton_3x4.jpg"
+        "date": "December 30, 1996",
+        "eventDescription": "The Spice Girls' debut single 'Wannabe' becomes a global hit."
     },
     {
-        "date": "February 22, 1997",
-        "eventDescription": "Scientists announce the successful cloning of Dolly the sheep.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Dolly_the_sheep_stuffed.jpg/800px-Dolly_the_sheep_stuffed.jpg"
+        "date": "March 4, 1997",
+        "eventDescription": "The film Titanic begins production."
     },
     {
-        "date": "March 10, 1997",
-        "eventDescription": "\"Buffy the Vampire Slayer\" premieres on The WB, becoming a cultural phenomenon.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/en/thumb/7/77/Buffy_the_Vampire_Slayer_title_card.jpg/800px-Buffy_the_Vampire_Slayer_title_card.jpg"
-    },
-    {
-        "date": "April 5, 1997",
-        "eventDescription": "The Notorious B.I.G.'s posthumous album \"Life After Death\" is released.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b9/Life_After_Death_%28album%29.jpg/800px-Life_After_Death_%28album%29.jpg"
+        "date": "May 1, 1997",
+        "eventDescription": "Tony Blair becomes Prime Minister of the United Kingdom, ending 18 years of Conservative rule."
     },
     {
         "date": "June 26, 1997",
-        "eventDescription": "J.K. Rowling's \"Harry Potter and the Philosopher's Stone\" is published in the UK.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6b/Harry_Potter_and_the_Philosopher%27s_Stone_Book_Cover.jpg/800px-Harry_Potter_and_the_Philosopher%27s_Stone_Book_Cover.jpg"
+        "eventDescription": "Harry Potter and the Philosopher's Stone is published in the United Kingdom."
     },
     {
         "date": "July 1, 1997",
-        "eventDescription": "The United Kingdom transfers sovereignty of Hong Kong to China.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Hong_Kong_Handover_Ceremony.jpg/800px-Hong_Kong_Handover_Ceremony.jpg"
-    },
-    {
-        "date": "July 15, 1997",
-        "eventDescription": "\"South Park\" debuts on Comedy Central.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/en/thumb/c/ce/South_Park_logo.svg/800px-South_Park_logo.svg.png"
+        "eventDescription": "The United Kingdom hands Hong Kong over to China."
     },
     {
         "date": "August 31, 1997",
-        "eventDescription": "Princess Diana tragically dies in a car crash in Paris.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Diana_and_Charles_wedding_carriage.jpg/800px-Diana_and_Charles_wedding_carriage.jpg"
+        "eventDescription": "Princess Diana dies in a car crash in Paris, sparking worldwide mourning."
     },
     {
-        "date": "November 1, 1997",
-        "eventDescription": "James Cameron's \"Titanic\" premieres in Tokyo, Japan.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/en/thumb/2/22/Titanic_poster.jpg/800px-Titanic_poster.jpg"
+        "date": "September 11, 1997",
+        "eventDescription": "Google.com is registered as a domain."
     },
     {
-        "date": "December 19, 1997",
-        "eventDescription": "\"Titanic\" is released in the U.S., becoming the highest-grossing film of all time (until 2009).",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/en/thumb/2/22/Titanic_poster.jpg/800px-Titanic_poster.jpg"
+        "date": "October 15, 1997",
+        "eventDescription": "The Cassini-Huygens space probe is launched to study Saturn."
     },
     {
-        "date": "January 25, 1998",
-        "eventDescription": "Spice Girls' movie \"Spice World\" premieres in the U.S.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0f/Spice_World_poster.jpg/800px-Spice_World_poster.jpg"
+        "date": "November 19, 1997",
+        "eventDescription": "James Cameron's Titanic premieres in Tokyo, Japan."
     },
     {
-        "date": "March 6, 1998",
-        "eventDescription": "\"The Big Lebowski,\" directed by the Coen brothers, is released.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/en/thumb/3/35/Biglebowskiposter.jpg/800px-Biglebowskiposter.jpg"
+        "date": "December 11, 1997",
+        "eventDescription": "The Kyoto Protocol is adopted to combat global warming."
     },
     {
-        "date": "April 14, 1998",
-        "eventDescription": "The Good Friday Agreement is signed in Northern Ireland.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Good_Friday_Agreement_signing.jpg/800px-Good_Friday_Agreement_signing.jpg"
+        "date": "December 18, 1997",
+        "eventDescription": "Titanic is released in theaters worldwide."
     },
     {
-        "date": "July 5, 1998",
-        "eventDescription": "Amazon introduces its \"1-Click\" purchase feature.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_com-Logo.svg/800px-Amazon_com-Logo.svg.png"
+        "date": "February 7, 1998",
+        "eventDescription": "The Winter Olympics open in Nagano, Japan."
+    },
+    {
+        "date": "April 1, 1998",
+        "eventDescription": "The Google search engine is launched."
+    },
+    {
+        "date": "May 14, 1998",
+        "eventDescription": "The final episode of Seinfeld airs on NBC."
+    },
+    {
+        "date": "May 22, 1998",
+        "eventDescription": "The Good Friday Agreement is approved in referendums in Northern Ireland and the Republic of Ireland."
+    },
+    {
+        "date": "July 12, 1998",
+        "eventDescription": "France wins the FIFA World Cup, defeating Brazil 3-0 in Paris."
     },
     {
         "date": "August 7, 1998",
-        "eventDescription": "U.S. embassies in Kenya and Tanzania are bombed by al-Qaeda.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/US_Embassy_bombing_in_Nairobi_in_1998.jpg/800px-US_Embassy_bombing_in_Nairobi_in_1998.jpg"
+        "eventDescription": "U.S. embassies in Kenya and Tanzania are bombed by al-Qaeda."
     },
     {
         "date": "September 4, 1998",
-        "eventDescription": "Google is founded by Larry Page and Sergey Brin.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Larry_Page_and_Sergey_Brin_2008.jpg/800px-Larry_Page_and_Sergey_Brin_2008.jpg"
+        "eventDescription": "Google is officially incorporated as a company."
     },
     {
-        "date": "November 1, 1998",
-        "eventDescription": "\"Family Guy\" creator Seth MacFarlane pitches the series to Fox.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ee/Seth_MacFarlane_2019.jpg/800px-Seth_MacFarlane_2019.jpg"
+        "date": "October 29, 1998",
+        "eventDescription": "John Glenn returns to space aboard Space Shuttle Discovery at age 77."
     },
     {
         "date": "December 19, 1998",
-        "eventDescription": "\"Shakespeare in Love\" premieres, later winning Best Picture at the Oscars.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b3/Shakespeare_in_Love_%281998%29_poster.jpg/800px-Shakespeare_in_Love_%281998%29_poster.jpg"
+        "eventDescription": "President Bill Clinton is impeached by the U.S. House of Representatives."
+    },
+    {
+        "date": "December 20, 1998",
+        "eventDescription": "The animated film A Bug's Life is released by Pixar."
     },
     {
         "date": "January 1, 1999",
-        "eventDescription": "The Euro becomes the official currency of 11 European Union countries.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Euro_symbol.svg/800px-Euro_symbol.svg.png"
+        "eventDescription": "The Euro becomes the official currency for 11 European Union countries."
     },
     {
-        "date": "March 31, 1999",
-        "eventDescription": "\"The Matrix\" is released, revolutionizing action and sci-fi cinema.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c1/The_Matrix_Poster.jpg/800px-The_Matrix_Poster.jpg"
-        
+        "date": "March 24, 1999",
+        "eventDescription": "NATO begins airstrikes against Yugoslavia during the Kosovo War."
     },
     {
-        "date": "May 1, 1999",
-        "eventDescription": "SpongeBob SquarePants premieres on Nickelodeon.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3b/SpongeBob_SquarePants_character.svg/800px-SpongeBob_SquarePants_character.svg.png"
+        "date": "April 20, 1999",
+        "eventDescription": "The Columbine High School massacre occurs in Colorado."
+    },
+    {
+        "date": "May 19, 1999",
+        "eventDescription": "Star Wars: Episode I – The Phantom Menace is released."
     },
     {
         "date": "June 1, 1999",
-        "eventDescription": "Napster, a peer-to-peer file-sharing service, is launched.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Napster_logo.svg/800px-Napster_logo.svg.png"
+        "eventDescription": "Napster, a file-sharing service, is launched."
     },
     {
-        "date": "June 16, 1999",
-        "eventDescription": "\"The Blair Witch Project\" premieres, popularizing the found-footage genre.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/en/thumb/2/26/Blair_Witch_Project_poster.jpg/800px-Blair_Witch_Project_poster.jpg"
+        "date": "July 16, 1999",
+        "eventDescription": "John F. Kennedy Jr. dies in a plane crash off the coast of Martha's Vineyard."
     },
     {
-        "date": "July 8, 1999",
-        "eventDescription": "David Beckham marries Victoria Adams (\"Posh Spice\").",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/David_Beckham_2018.jpg/800px-David_Beckham_2018.jpg"
+        "date": "August 11, 1999",
+        "eventDescription": "A total solar eclipse is visible across Europe and Asia."
     },
     {
-        "date": "August 15, 1999",
-        "eventDescription": "Woodstock '99 ends in riots and controversy.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e1/Woodstock_99_logo.jpg/800px-Woodstock_99_logo.jpg"
+        "date": "October 12, 1999",
+        "eventDescription": "The world population reaches 6 billion."
     },
     {
-        "date": "October 20, 1999",
-        "eventDescription": "\"Fight Club\" premieres, becoming a cult classic.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fc/Fight_Club_poster.jpg/800px-Fight_Club_poster.jpg"
+        "date": "November 30, 1999",
+        "eventDescription": "Protests erupt in Seattle during the World Trade Organization conference."
     },
     {
-        "date": "November 12, 1999",
-        "eventDescription": "The first Pokémon movie is released in the U.S.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d9/Pokémon_The_First_Movie_poster.jpg/800px-Pokémon_The_First_Movie_poster.jpg"
+        "date": "December 31, 1999",
+        "eventDescription": "The world celebrates the turn of the millennium."
     },
     {
         "date": "January 1, 2000",
-        "eventDescription": "The world celebrates the new millennium amidst Y2K fears.",
-        "eventImage": ""
+        "eventDescription": "The Y2K bug fails to cause significant disruptions."
     },
     {
-        "date": "May 5, 2000",
-        "eventDescription": "\"Gladiator,\" directed by Ridley Scott, is released.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8d/Gladiator_ver1.jpg/800px-Gladiator_ver1.jpg"
+        "date": "March 26, 2000",
+        "eventDescription": "Vladimir Putin is elected President of Russia."
     },
     {
-        "date": "June 19, 2000",
-        "eventDescription": "\"The Sims,\" a life-simulation video game, is released.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/The_Sims_cover.jpg/800px-The_Sims_cover.jpg"
+        "date": "May 4, 2000",
+        "eventDescription": "Ken Livingstone becomes the first elected Mayor of London."
     },
     {
-        "date": "July 21, 2000",
-        "eventDescription": "Harry Potter and the Goblet of Fire is released, selling 3 million copies in the U.S. on its first day.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8a/Harry_Potter_and_the_Goblet_of_Fire_US_cover.jpg/800px-Harry_Potter_and_the_Goblet_of_Fire_US_cover.jpg"
+        "date": "June 26, 2000",
+        "eventDescription": "The Human Genome Project announces a working draft of the human genome."
     },
     {
-        "date": "October 23, 2000",
-        "eventDescription": "The USS Cole bombing occurs in Yemen, killing 17 U.S. sailors.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/USS_Cole_bombing.jpg/800px-USS_Cole_bombing.jpg"
+        "date": "July 2, 2000",
+        "eventDescription": "France wins the UEFA European Championship, defeating Italy 2-1."
+    },
+    {
+        "date": "September 15, 2000",
+        "eventDescription": "The Sydney Summer Olympics begin."
+    },
+    {
+        "date": "October 31, 2000",
+        "eventDescription": "The first crew arrives at the International Space Station."
+    },
+    {
+        "date": "November 7, 2000",
+        "eventDescription": "The controversial U.S. presidential election between George W. Bush and Al Gore takes place."
+    },
+    {
+        "date": "December 15, 2000",
+        "eventDescription": "Cast Away, starring Tom Hanks, is released in theaters."
     },
     {
         "date": "December 31, 2000",
-        "eventDescription": "The final \"Peanuts\" comic strip by Charles Schulz is published.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/en/thumb/6/64/Peanuts_by_Schulz.jpg/800px-Peanuts_by_Schulz.jpg"
+        "eventDescription": "The Millennium Dome closes after hosting the UK’s Millennium Experience."
     },
     {
-        "date": "January 20, 2001",
-        "eventDescription": "George W. Bush is inaugurated as the 43rd President of the United States.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/George-W-Bush_presidential_portrait.jpg/800px-George-W-Bush_presidential_portrait.jpg"
+        "date": "January 15, 2001",
+        "eventDescription": "Wikipedia is launched as a free online encyclopedia."
     },
     {
-        "date": "May 14, 2001",
-        "eventDescription": "\"Shrek\" premieres, becoming a beloved animated film.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/en/thumb/3/39/Shrek_Poster.jpg/800px-Shrek_Poster.jpg"
+        "date": "March 23, 2001",
+        "eventDescription": "The Russian space station Mir re-enters Earth's atmosphere and burns up."
     },
     {
-        "date": "June 11, 2001",
-        "eventDescription": "Timothy McVeigh is executed for the Oklahoma City bombing.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Timothy_McVeigh_mug_shot.jpg/800px-Timothy_McVeigh_mug_shot.jpg"
+        "date": "April 1, 2001",
+        "eventDescription": "The Netherlands becomes the first country to legalize same-sex marriage."
+    },
+    {
+        "date": "May 24, 2001",
+        "eventDescription": "The Dreamcast is discontinued by Sega."
+    },
+    {
+        "date": "July 20, 2001",
+        "eventDescription": "The first Harry Potter film, Harry Potter and the Philosopher's Stone, premieres in London."
     },
     {
         "date": "September 11, 2001",
-        "eventDescription": "Al-Qaeda terrorists attack the World Trade Center and the Pentagon.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/World_Trade_Center_on_September_11%2C_2001.jpg/800px-World_Trade_Center_on_September_11%2C_2001.jpg"
+        "eventDescription": "The September 11 terrorist attacks occur in the United States."
     },
     {
-        "date": "November 16, 2001",
-        "eventDescription": "\"Harry Potter and the Philosopher's Stone\" premieres, launching the film series.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6b/Harry_Potter_and_the_Philosopher%27s_Stone_Book_Cover.jpg/800px-Harry_Potter_and_the_Philosopher%27s_Stone_Book_Cover.jpg"
+        "date": "October 7, 2001",
+        "eventDescription": "The U.S. begins military operations in Afghanistan in response to 9/11."
+    },
+    {
+        "date": "November 10, 2001",
+        "eventDescription": "The first iPod is released by Apple."
+    },
+    {
+        "date": "December 2, 2001",
+        "eventDescription": "Enron files for bankruptcy, marking the largest bankruptcy in U.S. history at the time."
     },
     {
         "date": "December 19, 2001",
-        "eventDescription": "\"The Lord of the Rings: The Fellowship of the Ring\" is released.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0c/The_Fellowship_Of_The_Ring.jpg/800px-The_Fellowship_Of_The_Ring.jpg"
+        "eventDescription": "The film The Lord of the Rings: The Fellowship of the Ring premieres."
+    },
+    {
+        "date": "January 1, 2002",
+        "eventDescription": "The Euro becomes the official currency in 12 European Union countries."
     },
     {
         "date": "February 8, 2002",
-        "eventDescription": "The Salt Lake City Winter Olympics open.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Salt_Lake_2002_logo.svg/800px-Salt_Lake_2002_logo.svg.png"
+        "eventDescription": "The Winter Olympics open in Salt Lake City, Utah."
     },
     {
-        "date": "May 3, 2002",
-        "eventDescription": "\"Spider-Man,\" starring Tobey Maguire, breaks box office records.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/Spider-Man2002Poster.jpg/800px-Spider-Man2002Poster.jpg"
+        "date": "April 25, 2002",
+        "eventDescription": "Lisa 'Left Eye' Lopes of TLC dies in a car crash."
+    },
+    {
+        "date": "May 25, 2002",
+        "eventDescription": "The film Spider-Man, starring Tobey Maguire, is released."
+    },
+    {
+        "date": "June 30, 2002",
+        "eventDescription": "Brazil wins the FIFA World Cup, defeating Germany 2-0."
     },
     {
         "date": "July 1, 2002",
-        "eventDescription": "The International Criminal Court is established in The Hague.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/International_Criminal_Court.jpg/800px-International_Criminal_Court.jpg"
+        "eventDescription": "The International Criminal Court is established in The Hague."
     },
     {
         "date": "August 29, 2002",
-        "eventDescription": "Kelly Clarkson wins the first season of \"American Idol.\"",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Kelly_Clarkson_2018.jpg/800px-Kelly_Clarkson_2018.jpg"
+        "eventDescription": "The Earth Summit 2002 begins in Johannesburg, South Africa."
     },
     {
-        "date": "November 15, 2002",
-        "eventDescription": "\"The Two Towers,\" the second \"Lord of the Rings\" film, is released.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ad/Lord_of_the_Rings_-_The_Two_Towers.jpg/800px-Lord_of_the_Rings_-_The_Two_Towers.jpg"
+        "date": "October 23, 2002",
+        "eventDescription": "A Moscow theater is seized by Chechen rebels, leading to a deadly hostage crisis."
+    },
+    {
+        "date": "November 25, 2002",
+        "eventDescription": "The U.S. Department of Homeland Security is established."
+    },
+    {
+        "date": "December 30, 2002",
+        "eventDescription": "The Lord of the Rings: The Two Towers is released worldwide."
     },
     {
         "date": "February 1, 2003",
-        "eventDescription": "Space Shuttle Columbia disintegrates upon re-entry, killing all seven astronauts.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Space_Shuttle_Columbia_lifting_off.jpg/800px-Space_Shuttle_Columbia_lifting_off.jpg"
+        "eventDescription": "The Space Shuttle Columbia disintegrates upon reentry, killing all seven crew members."
     },
     {
-        "date": "March 19, 2003",
-        "eventDescription": "The U.S. launches the invasion of Iraq.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/US_Marines_in_Iraq.jpg/800px-US_Marines_in_Iraq.jpg"
+        "date": "March 20, 2003",
+        "eventDescription": "The Iraq War begins with the U.S.-led invasion of Iraq."
     },
     {
-        "date": "July 15, 2003",
-        "eventDescription": "\"Pirates of the Caribbean: The Curse of the Black Pearl\" premieres.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/en/thumb/8/89/Pirates_of_the_Caribbean_-_The_Curse_of_the_Black_Pearl.jpg/800px-Pirates_of_the_Caribbean_-_The_Curse_of_the_Black_Pearl.jpg"
+        "date": "April 9, 2003",
+        "eventDescription": "The statue of Saddam Hussein is toppled in Baghdad."
     },
     {
-        "date": "October 2, 2003",
-        "eventDescription": "Arnold Schwarzenegger is elected Governor of California.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Arnold_Schwarzenegger_by_Gage_Skidmore_4.jpg/800px-Arnold_Schwarzenegger_by_Gage_Skidmore_4.jpg"
+        "date": "May 15, 2003",
+        "eventDescription": "The Matrix Reloaded premieres in theaters worldwide."
     },
     {
-        "date": "December 14, 2003",
-        "eventDescription": "Saddam Hussein is captured by U.S. forces in Iraq.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Saddam_Hussein_capture.jpg/800px-Saddam_Hussein_capture.jpg"
+        "date": "June 22, 2003",
+        "eventDescription": "Harry Potter and the Order of the Phoenix is published worldwide."
     },
     {
-        "date": "February 1, 2004",
-        "eventDescription": "Janet Jackson's \"wardrobe malfunction\" occurs during the Super Bowl halftime show.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Janet_Jackson_2011.jpg/800px-Janet_Jackson_2011.jpg"
+        "date": "July 23, 2003",
+        "eventDescription": "Tesla Motors is founded by Martin Eberhard and Marc Tarpenning."
     },
     {
-        "date": "April 30, 2004",
-        "eventDescription": "Facebook expands to more universities.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Mark_Zuckerberg_F8_2019_Keynote_%2832830578717%29_%28cropped%29.jpg/800px-Mark_Zuckerberg_F8_2019_Keynote_%2832830578717%29_%28cropped%29.jpg"
+        "date": "August 14, 2003",
+        "eventDescription": "A massive blackout affects parts of the U.S. and Canada."
+    },
+    {
+        "date": "October 24, 2003",
+        "eventDescription": "Concorde makes its final commercial flight, ending the era of supersonic passenger travel."
+    },
+    {
+        "date": "November 4, 2003",
+        "eventDescription": "The final Concorde flight takes place in the UK."
+    },
+    {
+        "date": "December 13, 2003",
+        "eventDescription": "Saddam Hussein is captured by U.S. forces in Iraq."
+    },
+    {
+        "date": "February 4, 2004",
+        "eventDescription": "Facebook is founded by Mark Zuckerberg and his Harvard roommates."
+    },
+    {
+        "date": "March 11, 2004",
+        "eventDescription": "Madrid train bombings kill 193 people in Spain."
+    },
+    {
+        "date": "April 24, 2004",
+        "eventDescription": "The expansion of the European Union adds 10 new member states."
+    },
+    {
+        "date": "May 6, 2004",
+        "eventDescription": "The final episode of Friends airs on NBC."
+    },
+    {
+        "date": "May 17, 2004",
+        "eventDescription": "Same-sex marriage is legalized in Massachusetts, the first U.S. state to do so."
+    },
+    {
+        "date": "July 4, 2004",
+        "eventDescription": "Greece wins the UEFA European Championship, defeating Portugal 1-0."
+    },
+    {
+        "date": "September 3, 2004",
+        "eventDescription": "The Beslan school siege in Russia ends tragically, with over 330 deaths."
+    },
+    {
+        "date": "October 27, 2004",
+        "eventDescription": "The Boston Red Sox win the World Series, breaking an 86-year curse."
     },
     {
         "date": "November 2, 2004",
-        "eventDescription": "George W. Bush is re-elected as U.S. President.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/George-W-Bush_presidential_portrait.jpg/800px-George-W-Bush_presidential_portrait.jpg"
+        "eventDescription": "George W. Bush is re-elected as U.S. President, defeating John Kerry."
     },
     {
-        "date": "February 14, 2005",
-        "eventDescription": "YouTube is founded by Steve Chen, Chad Hurley, and Jawed Karim.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/YouTube_logo_2017.svg/800px-YouTube_logo_2017.svg.png"
-    },
-    {
-        "date": "March 24, 2005",
-        "eventDescription": "\"The Office\" (U.S. version) premieres on NBC.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/en/thumb/5/53/The_Office_US_poster.jpg/800px-The_Office_US_poster.jpg"
+        "date": "December 26, 2004",
+        "eventDescription": "A massive tsunami devastates parts of Southeast Asia, killing over 230,000 people."
     },
     {
         "date": "April 2, 2005",
-        "eventDescription": "Pope John Paul II passes away, leading to the election of Pope Benedict XVI.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Pope_John_Paul_II_1987.jpg/800px-Pope_John_Paul_II_1987.jpg"
+        "eventDescription": "Pope John Paul II dies, ending a 26-year papacy."
     },
     {
-        "date": "May 19, 2005",
-        "eventDescription": "\"Star Wars: Episode III – Revenge of the Sith\" is released, completing the prequel trilogy.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/en/thumb/9/93/Star_Wars_Episode_III_Revenge_of_the_Sith_poster.jpg/800px-Star_Wars_Episode_III_Revenge_of_the_Sith_poster.jpg"
+        "date": "April 23, 2005",
+        "eventDescription": "The first video is uploaded to YouTube, titled 'Me at the zoo.'"
+    },
+    {
+        "date": "June 17, 2005",
+        "eventDescription": "Batman Begins is released, rebooting the Batman film franchise."
     },
     {
         "date": "July 6, 2005",
-        "eventDescription": "London is selected to host the 2012 Summer Olympics.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bd/London_2012_logo.svg/800px-London_2012_logo.svg.png"
+        "eventDescription": "London is selected to host the 2012 Summer Olympics."
     },
     {
         "date": "July 7, 2005",
-        "eventDescription": "The London bombings occur, killing 52 and injuring hundreds.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Tavistock_Square_bus_bombing.jpg/800px-Tavistock_Square_bus_bombing.jpg"
+        "eventDescription": "A series of bombings targets London’s public transportation system."
     },
     {
-        "date": "July 15, 2005",
-        "eventDescription": "\"Harry Potter and the Half-Blood Prince\" is released, breaking book sales records.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b5/Harry_Potter_and_the_Half-Blood_Prince_cover.jpg/800px-Harry_Potter_and_the_Half-Blood_Prince_cover.jpg"
+        "date": "August 29, 2005",
+        "eventDescription": "Hurricane Katrina makes landfall, devastating New Orleans and surrounding areas."
     },
     {
-        "date": "September 19, 2005",
-        "eventDescription": "\"How I Met Your Mother\" premieres on CBS.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9d/How_I_Met_Your_Mother_title_card.png/800px-How_I_Met_Your_Mother_title_card.png"
+        "date": "September 24, 2005",
+        "eventDescription": "Ellen Johnson Sirleaf becomes Africa's first elected female head of state."
     },
     {
-        "date": "October 10, 2005",
-        "eventDescription": "Angela Merkel is elected as Germany's first female Chancellor.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Bundeskanzlerin_Angela_Merkel_Juli_2021.jpg/800px-Bundeskanzlerin_Angela_Merkel_Juli_2021.jpg"
+        "date": "October 19, 2005",
+        "eventDescription": "Saddam Hussein’s trial begins in Iraq."
     },
     {
-        "date": "November 5, 2005",
-        "eventDescription": "\"Twilight,\" the first book of Stephenie Meyer's vampire saga, is released.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1d/Twilightbookcover.jpg/800px-Twilightbookcover.jpg"
+        "date": "November 22, 2005",
+        "eventDescription": "The Xbox 360 is released in North America."
     },
     {
-        "date": "March 31, 2006",
-        "eventDescription": "Twitter is founded by Jack Dorsey, Noah Glass, Biz Stone, and Evan Williams.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Jack_Dorsey_at_TechCrunch_Disrupt_2010.jpg/800px-Jack_Dorsey_at_TechCrunch_Disrupt_2010.jpg"
+        "date": "December 8, 2005",
+        "eventDescription": "Chronicles of Narnia: The Lion, the Witch, and the Wardrobe premieres in theaters."
     },
     {
-        "date": "May 5, 2006",
-        "eventDescription": "The first installment of the \"Mission: Impossible\" film series starring Tom Cruise is released.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Mission_Impossible_%281996_film%29.jpg/800px-Mission_Impossible_%281996_film%29.jpg"
+        "date": "January 15, 2006",
+        "eventDescription": "The launch of NASA's New Horizons probe to Pluto."
+    },
+    {
+        "date": "March 9, 2006",
+        "eventDescription": "The final episode of The Sopranos airs."
+    },
+    {
+        "date": "April 18, 2006",
+        "eventDescription": "Construction begins on the Freedom Tower (One World Trade Center) in New York."
+    },
+    {
+        "date": "May 19, 2006",
+        "eventDescription": "The Da Vinci Code film, based on Dan Brown's bestseller, premieres."
     },
     {
         "date": "June 9, 2006",
-        "eventDescription": "The FIFA World Cup kicks off in Germany.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d1/2006_FIFA_World_Cup_poster.svg/800px-2006_FIFA_World_Cup_poster.svg.png"
+        "eventDescription": "The FIFA World Cup opens in Germany."
     },
     {
         "date": "July 15, 2006",
-        "eventDescription": "Twitter is officially launched to the public.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Twitter_bird_logo_2012.svg/800px-Twitter_bird_logo_2012.svg.png"
+        "eventDescription": "Twitter is officially launched."
     },
     {
-        "date": "October 23, 2006",
-        "eventDescription": "Google acquires YouTube for $1.65 billion.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Larry_Page_and_Sergey_Brin_2008.jpg/800px-Larry_Page_and_Sergey_Brin_2008.jpg"
+        "date": "October 9, 2006",
+        "eventDescription": "North Korea conducts its first nuclear test."
     },
     {
-        "date": "November 17, 2006",
-        "eventDescription": "\"Casino Royale,\" Daniel Craig’s first James Bond film, premieres.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/en/thumb/1/15/Casino_Royale_poster.jpg/800px-Casino_Royale_poster.jpg"
+        "date": "November 5, 2006",
+        "eventDescription": "Saddam Hussein is sentenced to death for crimes against humanity."
     },
     {
-        "date": "December 4, 2006",
-        "eventDescription": "Nintendo releases the Wii gaming console.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Wii-console.jpg/800px-Wii-console.jpg"
+        "date": "November 19, 2006",
+        "eventDescription": "The Nintendo Wii is released in North America."
+    },
+    {
+        "date": "December 30, 2006",
+        "eventDescription": "Saddam Hussein is executed by hanging."
     },
     {
         "date": "January 9, 2007",
-        "eventDescription": "Steve Jobs announces the iPhone, revolutionizing smartphones.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Steve_Jobs_Headshot_2010-CROP.jpg/800px-Steve_Jobs_Headshot_2010-CROP.jpg"
+        "eventDescription": "Apple unveils the first iPhone."
     },
     {
-        "date": "July 7, 2007",
-        "eventDescription": "The Live Earth concerts are held globally to raise awareness about climate change.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Live_Earth_logo.svg/800px-Live_Earth_logo.svg.png"
+        "date": "March 23, 2007",
+        "eventDescription": "Iran captures 15 British Navy personnel, sparking an international dispute."
+    },
+    {
+        "date": "April 16, 2007",
+        "eventDescription": "The Virginia Tech shooting occurs, leaving 33 people dead."
+    },
+    {
+        "date": "June 29, 2007",
+        "eventDescription": "The first iPhone is released in the United States."
     },
     {
         "date": "July 21, 2007",
-        "eventDescription": "\"Harry Potter and the Deathly Hallows,\" the final book in the series, is released.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a9/Harry_Potter_and_the_Deathly_Hallows.jpg/800px-Harry_Potter_and_the_Deathly_Hallows.jpg"
+        "eventDescription": "The final Harry Potter book, Harry Potter and the Deathly Hallows, is published."
     },
     {
-        "date": "September 18, 2007",
-        "eventDescription": "\"The Big Bang Theory\" premieres on CBS.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/en/thumb/0/08/Big_Bang_Theory_title_card.png/800px-Big_Bang_Theory_title_card.png"
+        "date": "August 15, 2007",
+        "eventDescription": "A magnitude 8.0 earthquake hits Peru, killing over 500 people."
     },
     {
-        "date": "October 9, 2007",
-        "eventDescription": "Radiohead releases the album \"In Rainbows\" with a pay-what-you-want model.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/en/thumb/6/62/In_Rainbows_cover.svg/800px-In_Rainbows_cover.svg.png"
+        "date": "September 14, 2007",
+        "eventDescription": "Halo 3 is released for Xbox 360."
     },
     {
-        "date": "November 5, 2007",
-        "eventDescription": "Writers in Hollywood go on strike, affecting numerous TV shows.",
-        "eventImage": ""
+        "date": "October 18, 2007",
+        "eventDescription": "Benazir Bhutto returns to Pakistan after years of self-imposed exile."
     },
     {
-        "date": "February 19, 2008",
-        "eventDescription": "Fidel Castro resigns as Cuba's President.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Fidel_Castro_1961.jpg/800px-Fidel_Castro_1961.jpg"
+        "date": "December 3, 2007",
+        "eventDescription": "The first long-term stay on the International Space Station is completed."
+    },
+    {
+        "date": "December 13, 2007",
+        "eventDescription": "The Lisbon Treaty is signed, reforming the European Union."
+    },
+    {
+        "date": "January 22, 2008",
+        "eventDescription": "Actor Heath Ledger dies from an accidental overdose."
+    },
+    {
+        "date": "February 24, 2008",
+        "eventDescription": "The film No Country for Old Men wins Best Picture at the Academy Awards."
+    },
+    {
+        "date": "March 14, 2008",
+        "eventDescription": "Protests erupt in Tibet against Chinese rule."
     },
     {
         "date": "May 2, 2008",
-        "eventDescription": "\"Iron Man,\" the first Marvel Cinematic Universe film, is released.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/en/thumb/7/70/Ironmanposter.JPG/800px-Ironmanposter.JPG"
+        "eventDescription": "Cyclone Nargis devastates Myanmar, killing over 138,000 people."
     },
     {
-        "date": "June 27, 2008",
-        "eventDescription": "Pixar's \"WALL-E\" premieres.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c2/WALL-Eposter.jpg/800px-WALL-Eposter.jpg"
+        "date": "May 12, 2008",
+        "eventDescription": "A massive earthquake strikes Sichuan, China, killing over 80,000."
     },
     {
         "date": "August 8, 2008",
-        "eventDescription": "The Beijing Summer Olympics begin with an iconic opening ceremony.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Beijing_National_Stadium.jpg/800px-Beijing_National_Stadium.jpg"
+        "eventDescription": "The Summer Olympics open in Beijing, China."
     },
     {
-        "date": "October 3, 2008",
-        "eventDescription": "Beyoncé releases \"Single Ladies (Put a Ring on It).\"",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1e/Beyoncé_-_Single_Ladies_%28Put_a_Ring_on_It%29.png/800px-Beyoncé_-_Single_Ladies_%28Put_a_Ring_on_It%29.png"
+        "date": "September 15, 2008",
+        "eventDescription": "Lehman Brothers files for bankruptcy, marking the start of a global financial crisis."
     },
     {
         "date": "November 4, 2008",
-        "eventDescription": "Barack Obama is elected as the 44th President of the United States.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Barack_Obama_official_portrait.jpg/800px-Barack_Obama_official_portrait.jpg"
+        "eventDescription": "Barack Obama is elected as the first African-American President of the United States."
     },
     {
-        "date": "December 11, 2008",
-        "eventDescription": "Bernie Madoff is arrested for his $65 billion Ponzi scheme.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Bernie_Madoff.jpg/800px-Bernie_Madoff.jpg"
+        "date": "December 5, 2008",
+        "eventDescription": "The Large Hadron Collider is successfully restarted after a shutdown."
+    },
+    {
+        "date": "December 27, 2008",
+        "eventDescription": "Israel launches Operation Cast Lead in Gaza."
+    },
+    {
+        "date": "January 15, 2009",
+        "eventDescription": "US Airways Flight 1549 lands on the Hudson River, with all passengers surviving."
+    },
+    {
+        "date": "March 19, 2009",
+        "eventDescription": "The iPhone 3GS is released worldwide."
+    },
+    {
+        "date": "April 6, 2009",
+        "eventDescription": "An earthquake strikes L'Aquila, Italy, killing over 300 people."
+    },
+    {
+        "date": "June 1, 2009",
+        "eventDescription": "Air France Flight 447 crashes into the Atlantic Ocean, killing 228 people."
     },
     {
         "date": "June 25, 2009",
-        "eventDescription": "Michael Jackson, the King of Pop, passes away.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Michael_Jackson_in_1988.jpg/800px-Michael_Jackson_in_1988.jpg"
+        "eventDescription": "Michael Jackson dies, sparking global mourning."
     },
     {
-        "date": "July 15, 2009",
-        "eventDescription": "\"Harry Potter and the Half-Blood Prince\" (film) premieres.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b5/Harry_Potter_and_the_Half-Blood_Prince_cover.jpg/800px-Harry_Potter_and_the_Half-Blood_Prince_cover.jpg"
+        "date": "July 22, 2009",
+        "eventDescription": "A total solar eclipse occurs, visible across Asia and the Pacific."
     },
     {
-        "date": "September 3, 2009",
-        "eventDescription": "Disney acquires Marvel Entertainment for $4 billion.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Marvel_Studios_logo.svg/800px-Marvel_Studios_logo.svg.png"
+        "date": "October 9, 2009",
+        "eventDescription": "Barack Obama wins the Nobel Peace Prize."
     },
     {
-        "date": "November 20, 2009",
-        "eventDescription": "\"The Twilight Saga: New Moon\" premieres, breaking opening-day box office records.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/en/thumb/7/73/The_Twilight_Saga_New_Moon_poster.jpg/800px-The_Twilight_Saga_New_Moon_poster.jpg"
+        "date": "November 13, 2009",
+        "eventDescription": "NASA confirms the discovery of water on the Moon."
+    },
+    {
+        "date": "December 1, 2009",
+        "eventDescription": "The Treaty of Lisbon comes into force, reshaping the European Union."
     },
     {
         "date": "December 18, 2009",
-        "eventDescription": "James Cameron's \"Avatar\" is released, becoming the highest-grossing film of all time.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b0/Avatar-Teaser-Poster.jpg/800px-Avatar-Teaser-Poster.jpg"
+        "eventDescription": "The UN Climate Change Conference ends in Copenhagen without significant agreements."
     },
     {
         "date": "January 12, 2010",
-        "eventDescription": "A devastating earthquake strikes Haiti, killing over 200,000 people.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/2010_Haiti_earthquake_aerial_photo.jpg/800px-2010_Haiti_earthquake_aerial_photo.jpg"
+        "eventDescription": "A devastating earthquake strikes Haiti, killing over 200,000 people."
     },
     {
-        "date": "March 12, 2010",
-        "eventDescription": "Google shuts down operations in China over censorship issues.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Larry_Page_and_Sergey_Brin_2008.jpg/800px-Larry_Page_and_Sergey_Brin_2008.jpg"
+        "date": "February 12, 2010",
+        "eventDescription": "The Winter Olympics open in Vancouver, Canada."
     },
     {
-        "date": "May 2, 2010",
-        "eventDescription": "\"Iron Man 2\" is released, expanding the Marvel Cinematic Universe.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ed/Iron_Man_2_poster.jpg/800px-Iron_Man_2_poster.jpg"
+        "date": "April 14, 2010",
+        "eventDescription": "Eyjafjallajökull volcano erupts in Iceland, disrupting air travel across Europe."
     },
     {
-        "date": "June 25, 2010",
-        "eventDescription": "The final episode of \"The Oprah Winfrey Show\" airs.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Oprah_Winfrey_at_the_83rd_Academy_Awards.jpg/800px-Oprah_Winfrey_at_the_83rd_Academy_Awards.jpg"
+        "date": "April 20, 2010",
+        "eventDescription": "The Deepwater Horizon oil rig explosion causes the largest oil spill in U.S. history."
     },
     {
-        "date": "July 16, 2010",
-        "eventDescription": "\"Inception,\" directed by Christopher Nolan, is released.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7f/Inception_ver3.jpg/800px-Inception_ver3.jpg"
+        "date": "June 11, 2010",
+        "eventDescription": "The FIFA World Cup begins in South Africa, the first held on the African continent."
     },
     {
-        "date": "October 3, 2010",
-        "eventDescription": "Instagram launches.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/800px-Instagram_logo_2016.svg.png"
+        "date": "July 25, 2010",
+        "eventDescription": "WikiLeaks releases classified military documents about the Afghanistan War."
     },
     {
-        "date": "November 19, 2010",
-        "eventDescription": "\"Harry Potter and the Deathly Hallows: Part 1\" premieres.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a9/Harry_Potter_and_the_Deathly_Hallows.jpg/800px-Harry_Potter_and_the_Deathly_Hallows.jpg"
+        "date": "October 13, 2010",
+        "eventDescription": "All 33 trapped Chilean miners are rescued after 69 days underground."
+    },
+    {
+        "date": "November 4, 2010",
+        "eventDescription": "Prince William and Kate Middleton announce their engagement."
+    },
+    {
+        "date": "November 21, 2010",
+        "eventDescription": "Ireland formally applies for a bailout from the European Union and IMF."
+    },
+    {
+        "date": "December 16, 2010",
+        "eventDescription": "The Arab Spring begins with protests in Tunisia."
+    },
+    {
+        "date": "January 14, 2011",
+        "eventDescription": "The Tunisian President is ousted, marking the first victory of the Arab Spring."
     },
     {
         "date": "March 11, 2011",
-        "eventDescription": "A massive earthquake and tsunami hit Japan, causing the Fukushima nuclear disaster.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/2011_T%C5%8Dhoku_earthquake_and_tsunami.jpg/800px-2011_T%C5%8Dhoku_earthquake_and_tsunami.jpg"
+        "eventDescription": "A massive earthquake and tsunami hit Japan, causing the Fukushima nuclear disaster."
     },
     {
-        "date": "April 29, 2011",
-        "eventDescription": "Prince William and Kate Middleton marry at Westminster Abbey.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Royal_wedding_portrait_of_Prince_William_and_Catherine_Middleton.jpg/800px-Royal_wedding_portrait_of_Prince_William_and_Catherine_Middleton.jpg"
+        "date": "May 1, 2011",
+        "eventDescription": "Osama bin Laden is killed in a U.S. military operation in Pakistan."
     },
     {
-        "date": "May 2, 2011",
-        "eventDescription": "Osama bin Laden is killed in a U.S. military operation.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Osama_bin_Laden_portrait.jpg/800px-Osama_bin_Laden_portrait.jpg"
+        "date": "May 6, 2011",
+        "eventDescription": "The final episode of The Oprah Winfrey Show airs after 25 years."
     },
     {
-        "date": "July 15, 2011",
-        "eventDescription": "\"Harry Potter and the Deathly Hallows: Part 2\" concludes the film series.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a9/Harry_Potter_and_the_Deathly_Hallows.jpg/800px-Harry_Potter_and_the_Deathly_Hallows.jpg"
+        "date": "July 9, 2011",
+        "eventDescription": "South Sudan gains independence, becoming the world's newest country."
     },
     {
-        "date": "October 5, 2011",
-        "eventDescription": "Steve Jobs, co-founder of Apple, passes away.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Steve_Jobs_Headshot_2010-CROP.jpg/800px-Steve_Jobs_Headshot_2010-CROP.jpg"
+        "date": "July 23, 2011",
+        "eventDescription": "Singer Amy Winehouse dies of alcohol poisoning."
     },
     {
-        "date": "December 18, 2011",
-        "eventDescription": "\"Game of Thrones\" wins its first Emmy Award.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d8/Game_of_Thrones_title_card.jpg/800px-Game_of_Thrones_title_card.jpg"
+        "date": "October 20, 2011",
+        "eventDescription": "Libyan leader Muammar Gaddafi is captured and killed by rebels."
     },
     {
-        "date": "March 23, 2012",
-        "eventDescription": "\"The Hunger Games\" premieres, launching a major film franchise.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/en/thumb/4/42/HungerGamesPoster.jpg/800px-HungerGamesPoster.jpg"
+        "date": "October 31, 2011",
+        "eventDescription": "The world population reaches 7 billion."
+    },
+    {
+        "date": "November 6, 2011",
+        "eventDescription": "Minecraft is officially released."
+    },
+    {
+        "date": "December 15, 2011",
+        "eventDescription": "The U.S. formally declares an end to the Iraq War."
+    },
+    {
+        "date": "January 13, 2012",
+        "eventDescription": "The Costa Concordia cruise ship capsizes off the coast of Italy."
+    },
+    {
+        "date": "February 11, 2012",
+        "eventDescription": "Singer Whitney Houston dies in Beverly Hills, California."
+    },
+    {
+        "date": "March 7, 2012",
+        "eventDescription": "Vladimir Putin is elected President of Russia for a third term."
+    },
+    {
+        "date": "May 20, 2012",
+        "eventDescription": "Facebook goes public on the stock market."
+    },
+    {
+        "date": "June 6, 2012",
+        "eventDescription": "The transit of Venus occurs, the last until 2117."
     },
     {
         "date": "July 20, 2012",
-        "eventDescription": "A mass shooting occurs during a \"Dark Knight Rises\" screening in Aurora, Colorado.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/en/thumb/8/83/Dark_Knight_Rises_poster.jpg/800px-Dark_Knight_Rises_poster.jpg"
+        "eventDescription": "A mass shooting occurs at a screening of The Dark Knight Rises in Aurora, Colorado."
     },
     {
         "date": "July 27, 2012",
-        "eventDescription": "The London Summer Olympics open with a spectacular ceremony.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bd/London_2012_logo.svg/800px-London_2012_logo.svg.png"
+        "eventDescription": "The London 2012 Olympics open."
     },
     {
-        "date": "October 30, 2012",
-        "eventDescription": "Hurricane Sandy devastates the eastern U.S.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Hurricane_Sandy_Oct_2012.jpg/800px-Hurricane_Sandy_Oct_2012.jpg"
+        "date": "October 14, 2012",
+        "eventDescription": "Felix Baumgartner breaks the sound barrier during a freefall from space."
     },
     {
         "date": "November 6, 2012",
-        "eventDescription": "Barack Obama is re-elected as U.S. President.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Barack_Obama_official_portrait.jpg/800px-Barack_Obama_official_portrait.jpg"
+        "eventDescription": "Barack Obama is re-elected as President of the United States."
     },
     {
-        "date": "December 21, 2012",
-        "eventDescription": "\"Gangnam Style\" by Psy becomes the first YouTube video to hit 1 billion views.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Gangnam_Style_PSY.jpg/800px-Gangnam_Style_PSY.jpg"
+        "date": "December 14, 2012",
+        "eventDescription": "The Sandy Hook Elementary School shooting occurs in Connecticut."
     },
     {
-        "date": "February 24, 2013",
-        "eventDescription": "Jennifer Lawrence wins Best Actress at the Oscars for \"Silver Linings Playbook.\"",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Jennifer_Lawrence_at_the_83rd_Academy_Awards.jpg/800px-Jennifer_Lawrence_at_the_83rd_Academy_Awards.jpg"
+        "date": "February 15, 2013",
+        "eventDescription": "A meteor explodes over Chelyabinsk, Russia, injuring over 1,000 people."
+    },
+    {
+        "date": "March 13, 2013",
+        "eventDescription": "Pope Francis is elected as the 266th Pope."
     },
     {
         "date": "April 15, 2013",
-        "eventDescription": "Bombs explode at the Boston Marathon, killing three and injuring hundreds.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Boston_Marathon_bombing_site_aftermath.jpg/800px-Boston_Marathon_bombing_site_aftermath.jpg"
+        "eventDescription": "The Boston Marathon bombing occurs, killing 3 and injuring hundreds."
+    },
+    {
+        "date": "June 6, 2013",
+        "eventDescription": "Edward Snowden reveals classified NSA surveillance programs."
     },
     {
         "date": "July 13, 2013",
-        "eventDescription": "George Zimmerman is acquitted in the Trayvon Martin shooting case, sparking protests.",
-        "eventImage": ""
+        "eventDescription": "George Zimmerman is acquitted in the shooting of Trayvon Martin."
     },
     {
         "date": "July 22, 2013",
-        "eventDescription": "Prince George, son of Prince William and Kate Middleton, is born.",
-        "eventImage": ""
+        "eventDescription": "Prince George, son of Prince William and Catherine, is born."
     },
     {
-        "date": "August 25, 2013",
-        "eventDescription": "Miley Cyrus's controversial performance at the VMAs.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Miley_Cyrus_2013.jpg/800px-Miley_Cyrus_2013.jpg"
+        "date": "August 21, 2013",
+        "eventDescription": "A chemical attack in Syria kills hundreds, escalating tensions in the Syrian Civil War."
+    },
+    {
+        "date": "October 3, 2013",
+        "eventDescription": "The U.S. government enters a 16-day shutdown due to budget disputes."
+    },
+    {
+        "date": "November 1, 2013",
+        "eventDescription": "The PlayStation 4 is released in North America."
     },
     {
         "date": "December 5, 2013",
-        "eventDescription": "Nelson Mandela passes away.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Nelson_Mandela_1994.jpg/800px-Nelson_Mandela_1994.jpg"
+        "eventDescription": "Nelson Mandela, former President of South Africa, dies at age 95."
     },
     {
         "date": "February 7, 2014",
-        "eventDescription": "The Sochi Winter Olympics begin, making headlines for controversies and costs.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/en/thumb/5/54/Sochi_2014_logo_blue.svg/800px-Sochi_2014_logo_blue.svg.png"
+        "eventDescription": "The Winter Olympics open in Sochi, Russia."
     },
     {
-        "date": "February 26, 2014",
-        "eventDescription": "Ellen DeGeneres takes the most retweeted selfie at the Oscars.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Ellen_DeGeneres_Oscars_selfie.jpg/800px-Ellen_DeGeneres_Oscars_selfie.jpg"
+        "date": "March 8, 2014",
+        "eventDescription": "Malaysia Airlines Flight MH370 disappears with 239 people onboard."
     },
     {
-        "date": "April 6, 2014",
-        "eventDescription": "HBO's \"Game of Thrones\" airs its iconic \"Purple Wedding\" episode.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d8/Game_of_Thrones_title_card.jpg/800px-Game_of_Thrones_title_card.jpg"
+        "date": "March 16, 2014",
+        "eventDescription": "Crimea votes to join Russia in a disputed referendum."
+    },
+    {
+        "date": "April 14, 2014",
+        "eventDescription": "The Boko Haram kidnapping of 276 schoolgirls occurs in Nigeria."
     },
     {
         "date": "May 24, 2014",
-        "eventDescription": "Kim Kardashian and Kanye West marry in Florence, Italy.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Kim_Kardashian_West_%28cropped%29.jpg/800px-Kim_Kardashian_West_%28cropped%29.jpg"
+        "eventDescription": "The European Parliament elections take place across Europe."
     },
     {
-        "date": "August 11, 2014",
-        "eventDescription": "Robin Williams, beloved actor and comedian, passes away.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Robin_Williams_2011a.jpg/800px-Robin_Williams_2011a.jpg"
+        "date": "June 12, 2014",
+        "eventDescription": "The FIFA World Cup begins in Brazil."
     },
     {
-        "date": "September 9, 2014",
-        "eventDescription": "Apple announces the iPhone 6 and the Apple Watch.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/IPhone_6_and_IPhone_6_Plus.png/800px-IPhone_6_and_IPhone_6_Plus.png"
+        "date": "July 17, 2014",
+        "eventDescription": "Malaysia Airlines Flight MH17 is shot down over Ukraine, killing all 298 onboard."
     },
     {
-        "date": "November 28, 2014",
-        "eventDescription": "Taylor Swift’s album \"1989\" dominates the charts, marking her pop transition.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f6/Taylor_Swift_-_1989.png/800px-Taylor_Swift_-_1989.png"
+        "date": "August 8, 2014",
+        "eventDescription": "The U.S. begins airstrikes against ISIS in Iraq."
     },
     {
-        "date": "December 18, 2014",
-        "eventDescription": "\"The Hobbit: The Battle of the Five Armies\" concludes the Hobbit trilogy.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0e/The_Hobbit_-_The_Battle_of_the_Five_Armies.jpg/800px-The_Hobbit_-_The_Battle_of_the_Five_Armies.jpg"
+        "date": "September 18, 2014",
+        "eventDescription": "Scotland votes to remain part of the United Kingdom in a referendum."
     },
     {
-        "date": "February 26, 2015",
-        "eventDescription": "\"The Dress\" debate (blue and black or white and gold?) goes viral.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e9/The_dress_blueblackwhitegold.jpg/800px-The_dress_blueblackwhitegold.jpg"
+        "date": "December 17, 2014",
+        "eventDescription": "The U.S. and Cuba announce plans to restore diplomatic relations."
     },
     {
-        "date": "April 24, 2015",
-        "eventDescription": "\"Avengers: Age of Ultron\" premieres, grossing over $1.4 billion.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1b/Avengers_Age_of_Ultron.jpg/800px-Avengers_Age_of_Ultron.jpg"
+        "date": "January 7, 2015",
+        "eventDescription": "Terrorists attack the offices of Charlie Hebdo in Paris, killing 12 people."
+    },
+    {
+        "date": "March 24, 2015",
+        "eventDescription": "Germanwings Flight 9525 crashes in the French Alps, killing all onboard."
+    },
+    {
+        "date": "April 25, 2015",
+        "eventDescription": "A massive earthquake strikes Nepal, killing over 8,000 people."
     },
     {
         "date": "June 26, 2015",
-        "eventDescription": "The U.S. Supreme Court legalizes same-sex marriage nationwide.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Obergefell_v._Hodges_case_banner.jpg/800px-Obergefell_v._Hodges_case_banner.jpg"
+        "eventDescription": "The U.S. Supreme Court legalizes same-sex marriage nationwide."
     },
     {
         "date": "July 14, 2015",
-        "eventDescription": "NASA’s New Horizons spacecraft sends back images of Pluto.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Pluto_in_True_Color_-_High-Res.jpg/800px-Pluto_in_True_Color_-_High-Res.jpg"
+        "eventDescription": "NASA's New Horizons spacecraft conducts a flyby of Pluto."
     },
     {
-        "date": "September 25, 2015",
-        "eventDescription": "Pope Francis addresses the United Nations for the first time.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Pope_Francis_in_2013.jpg/800px-Pope_Francis_in_2013.jpg"
+        "date": "August 5, 2015",
+        "eventDescription": "The EPA accidentally releases toxic waste into the Animas River."
+    },
+    {
+        "date": "September 28, 2015",
+        "eventDescription": "NASA announces the discovery of liquid water on Mars."
+    },
+    {
+        "date": "October 21, 2015",
+        "eventDescription": "Back to the Future Day is celebrated as the date Marty McFly traveled to in the film."
     },
     {
         "date": "November 13, 2015",
-        "eventDescription": "Coordinated terrorist attacks occur in Paris, including the Bataclan theater.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Paris_terrorist_attacks_November_2015.jpg/800px-Paris_terrorist_attacks_November_2015.jpg"
+        "eventDescription": "Terrorist attacks in Paris kill 130 people and injure hundreds more."
     },
     {
-        "date": "December 18, 2015",
-        "eventDescription": "\"Star Wars: The Force Awakens\" premieres, reviving the Star Wars saga.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a2/Star_Wars_The_Force_Awakens_Theatrical_Poster.jpg/800px-Star_Wars_The_Force_Awakens_Theatrical_Poster.jpg"
+        "date": "December 12, 2015",
+        "eventDescription": "The Paris Agreement on climate change is signed by 195 countries."
     },
     {
-        "date": "February 28, 2016",
-        "eventDescription": "Leonardo DiCaprio wins his first Oscar for \"The Revenant.\"",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Leonardo_DiCaprio_2014.jpg/800px-Leonardo_DiCaprio_2014.jpg"
+        "date": "January 10, 2016",
+        "eventDescription": "David Bowie dies of cancer, sparking global tributes."
     },
     {
-        "date": "June 23, 2016",
-        "eventDescription": "The UK votes to leave the EU in the Brexit referendum.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Vote_Leave_poster.svg/800px-Vote_Leave_poster.svg.png"
+        "date": "February 11, 2016",
+        "eventDescription": "Scientists confirm the detection of gravitational waves."
     },
     {
-        "date": "July 10, 2016",
-        "eventDescription": "Pokémon GO launches, sparking a global mobile gaming phenomenon.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Pokémon_GO_logo.png/800px-Pokémon_GO_logo.png"
-    },
-    {
-        "date": "August 5, 2016",
-        "eventDescription": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5e/Rio_2016_logo.svg/800px-Rio_2016_logo.svg.png"
-    },
-    {
-        "date": "November 8, 2016",
-        "eventDescription": "The 45th President of the United States is"
-    },
-    {
-        "date": "November 25, 2016",
-        "eventDescription": "Castro dies",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Fidel_Castro_1961.jpg/800px-Fidel_Castro_1961.jpg"
-    },
-    {
-        "date": "December 6, 2016",
-        "eventDescription": "Women's March",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5a/Beyoncé_-_Lemonade_%28Official_Album_Cover%29.png/800px-Beyoncé_-_Lemonade_%28Official_Album_Cover%29.png"
-    },
-    {
-        "date": "January 21, 2017",
-        "eventDescription": "Millions march worldwide in the Women’s March.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/WomensMarch_LosAngeles_01-21-2017_%2832830932376%29.jpg/800px-WomensMarch_LosAngeles_01-21-2017_%2832830932376%29.jpg"
-    },
-    {
-        "date": "April 14, 2017",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Harry_Styles_%282017%29.png/800px-Harry_Styles_%282017%29.png"
-    },
-    {
-        "date": "May 22, 2017",
-        "eventDescription": "A bombing at Ariana Grande's concert in Manchester, UK, kills 22 people."
-    },
-    {
-        "date": "June 1, 2017",
-        "eventDescription": " Paris Agreement",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Paris_Agreement_Signature_Ceremony.jpg/800px-Paris_Agreement_Signature_Ceremony.jpg"
-    },
-    {
-        "date": "July 16, 2017",
-        "eventDescription": "Game of Thrones",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d8/Game_of_Thrones_title_card.jpg/800px-Game_of_Thrones_title_card.jpg"
-    },
-    {
-        "date": "October 5, 2017",
-        "eventDescription": "The #Me"
-    },
-    {
-        "date": "November https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Prince_Harry_and_Meghan_Markle_%28cropped2%29.jpg/800px-Prince_Harry_and_Meghan_Markle_%28cropped2%29.jpg"
-    },
-    {
-        "date": "December 15, 2017",
-        "eventDescription": "\"Star Wars: The Last Jedi\"https://upload.wikimedia.org/wikipedia/en/thumb/f/f9/Star_Wars_The_Last_Jedi_poster.jpg/800px-Star_Wars_The_Last_Jedi_poster.jpg"
-    },
-    {
-        "date": "February 28, 2016",
-        "eventDescription": "Leonardo DiCaprio wins his first Oscar for \"The Revenant.\"",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Leonardo_DiCaprio_2014.jpg/800px-Leonardo_DiCaprio_2014.jpg"
+        "date": "June 3, 2016",
+        "eventDescription": "Boxing legend Muhammad Ali dies at age 74."
     },
     {
         "date": "June 23, 2016",
-        "eventDescription": "The UK votes to leave the EU in the Brexit referendum.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Vote_Leave_poster.svg/800px-Vote_Leave_poster.svg.png"
+        "eventDescription": "The United Kingdom votes to leave the European Union (Brexit)."
     },
     {
-        "date": "July 10, 2016",
-        "eventDescription": "Pokémon GO launches, sparking a global mobile gaming phenomenon.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Pokémon_GO_logo.png/800px-Pokémon_GO_logo.png"
+        "date": "July 14, 2016",
+        "eventDescription": "A truck attack in Nice, France, kills 86 people during Bastille Day celebrations."
+    },
+    {
+        "date": "July 28, 2016",
+        "eventDescription": "Hillary Clinton becomes the first woman nominated for U.S. President by a major party."
     },
     {
         "date": "August 5, 2016",
-        "eventDescription": "The Rio Summer Olympics open.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5e/Rio_2016_logo.svg/800px-Rio_2016_logo.svg.png"
+        "eventDescription": "The Summer Olympics open in Rio de Janeiro, Brazil."
+    },
+    {
+        "date": "October 13, 2016",
+        "eventDescription": "Bob Dylan is awarded the Nobel Prize in Literature."
     },
     {
         "date": "November 8, 2016",
-        "eventDescription": "The 45th President of the United States is elected.",
-        "eventImage": ""
+        "eventDescription": "Donald Trump is elected as the 45th President of the United States."
     },
     {
-        "date": "November 25, 2016",
-        "eventDescription": "Fidel Castro, the former leader of Cuba, passes away.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Fidel_Castro_1961.jpg/800px-Fidel_Castro_1961.jpg"
+        "date": "December 19, 2016",
+        "eventDescription": "A truck attack at a Christmas market in Berlin kills 12 people."
     },
     {
-        "date": "December 6, 2016",
-        "eventDescription": "Beyoncé’s \"Lemonade\" is nominated for Album of the Year.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5a/Beyoncé_-_Lemonade_%28Official_Album_Cover%29.png/800px-Beyoncé_-_Lemonade_%28Official_Album_Cover%29.png"
+        "date": "January 20, 2017",
+        "eventDescription": "Donald Trump is inaugurated as the 45th President of the United States."
     },
     {
-        "date": "January 21, 2017",
-        "eventDescription": "Millions march worldwide in the Women’s March.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/WomensMarch_LosAngeles_01-21-2017_%2832830932376%29.jpg/800px-WomensMarch_LosAngeles_01-21-2017_%2832830932376%29.jpg"
-    },
-    {
-        "date": "April 14, 2017",
-        "eventDescription": "Harry Styles releases his first solo single, \"Sign of the Times.\"",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Harry_Styles_%282017%29.png/800px-Harry_Styles_%282017%29.png"
+        "date": "March 29, 2017",
+        "eventDescription": "The UK formally triggers Article 50, starting the Brexit process."
     },
     {
         "date": "May 22, 2017",
-        "eventDescription": "A bombing at Ariana Grande's concert in Manchester, UK, kills 22 people.",
-        "eventImage": ""
+        "eventDescription": "A terrorist attack at an Ariana Grande concert in Manchester kills 22 people."
     },
     {
-        "date": "June 1, 2017",
-        "eventDescription": "President announces the U.S. withdrawal from the Paris Climate Agreement.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Paris_Agreement_Signature_Ceremony.jpg/800px-Paris_Agreement_Signature_Ceremony.jpg"
+        "date": "June 14, 2017",
+        "eventDescription": "The Grenfell Tower fire in London kills 72 people."
     },
     {
-        "date": "July 16, 2017",
-        "eventDescription": "\"Game of Thrones\" airs its penultimate season.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d8/Game_of_Thrones_title_card.jpg/800px-Game_of_Thrones_title_card.jpg"
+        "date": "August 21, 2017",
+        "eventDescription": "A total solar eclipse is visible across the United States."
     },
     {
-        "date": "October 5, 2017",
-        "eventDescription": "The #MeToo movement gains traction after allegations against Harvey Weinstein.",
-        "eventImage": ""
+        "date": "September 3, 2017",
+        "eventDescription": "North Korea conducts its most powerful nuclear test."
     },
     {
-        "date": "November 27, 2017",
-        "eventDescription": "Prince Harry and Meghan Markle announce their engagement.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Prince_Harry_and_Meghan_Markle_%28cropped2%29.jpg/800px-Prince_Harry_and_Meghan_Markle_%28cropped2%29.jpg"
+        "date": "October 1, 2017",
+        "eventDescription": "A mass shooting at a Las Vegas concert becomes the deadliest in U.S. history."
     },
     {
-        "date": "December 15, 2017",
-        "eventDescription": "\"Star Wars: The Last Jedi\" premieres.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f9/Star_Wars_The_Last_Jedi_poster.jpg/800px-Star_Wars_The_Last_Jedi_poster.jpg"
+        "date": "November 15, 2017",
+        "eventDescription": "Zimbabwe's President Robert Mugabe is placed under house arrest."
     },
     {
-        "date": "April 27, 2018",
-        "eventDescription": "North and South Korea leaders meet at the DMZ, a historic moment.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Korean_leaders_meet_at_DMZ_2018.jpg/800px-Korean_leaders_meet_at_DMZ_2018.jpg"
+        "date": "November 22, 2017",
+        "eventDescription": "The film Coco is released by Pixar."
+    },
+    {
+        "date": "December 14, 2017",
+        "eventDescription": "The FCC votes to repeal net neutrality in the United States."
+    },
+    {
+        "date": "February 9, 2018",
+        "eventDescription": "The Winter Olympics open in Pyeongchang, South Korea."
+    },
+    {
+        "date": "March 24, 2018",
+        "eventDescription": "The March for Our Lives rally is held in the United States to protest gun violence."
     },
     {
         "date": "May 19, 2018",
-        "eventDescription": "Prince Harry marries Meghan Markle in Windsor Castle.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Prince_Harry_and_Meghan_Markle_wedding_carriage_procession.jpg/800px-Prince_Harry_and_Meghan_Markle_wedding_carriage_procession.jpg"
+        "eventDescription": "Prince Harry and Meghan Markle marry at Windsor Castle."
     },
     {
-        "date": "June 14, 2018",
-        "eventDescription": "The FIFA World Cup kicks off in Russia.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/en/thumb/6/67/2018_FIFA_World_Cup_poster.svg/800px-2018_FIFA_World_Cup_poster.svg.png"
+        "date": "June 12, 2018",
+        "eventDescription": "Donald Trump and Kim Jong-un meet in Singapore for a historic summit."
     },
     {
-        "date": "August 10, 2018",
-        "eventDescription": "Nicki Minaj releases her album \"Queen.\"",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c4/Nicki_Minaj_-_Queen.png/800px-Nicki_Minaj_-_Queen.png"
+        "date": "July 10, 2018",
+        "eventDescription": "All 12 boys and their coach are rescued from a flooded cave in Thailand."
+    },
+    {
+        "date": "July 15, 2018",
+        "eventDescription": "France wins the FIFA World Cup, defeating Croatia 4-2 in Moscow."
+    },
+    {
+        "date": "August 14, 2018",
+        "eventDescription": "The Morandi Bridge collapses in Genoa, Italy, killing 43 people."
+    },
+    {
+        "date": "September 28, 2018",
+        "eventDescription": "A tsunami strikes Palu, Indonesia, killing over 4,000 people."
     },
     {
         "date": "October 6, 2018",
-        "eventDescription": "Brett Kavanaugh is confirmed to the U.S. Supreme Court.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Brett_Kavanaugh_official_SCOTUS_portrait.jpg/800px-Brett_Kavanaugh_official_SCOTUS_portrait.jpg"
+        "eventDescription": "Brett Kavanaugh is confirmed as a U.S. Supreme Court justice after contentious hearings."
     },
     {
-        "date": "November 9, 2018",
-        "eventDescription": "Wildfires devastate California, including the town of Paradise.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Camp_Fire_Paradise_California_2018.jpg/800px-Camp_Fire_Paradise_California_2018.jpg"
+        "date": "November 28, 2018",
+        "eventDescription": "NASA's InSight spacecraft lands on Mars."
     },
     {
-        "date": "December 14, 2018",
-        "eventDescription": "\"Spider-Man: Into the Spider-Verse\" premieres, earning critical acclaim.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/en/thumb/0/02/Spider-Man_Into_the_Spider-Verse_poster.jpg/800px-Spider-Man_Into_the_Spider-Verse_poster.jpg"
+        "date": "January 1, 2019",
+        "eventDescription": "Brazilian President Jair Bolsonaro is inaugurated."
     },
     {
-        "date": "April 14, 2019",
-        "eventDescription": "\"Game of Thrones\" premieres its controversial final season.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d8/Game_of_Thrones_title_card.jpg/800px-Game_of_Thrones_title_card.jpg"
+        "date": "February 24, 2019",
+        "eventDescription": "The film Green Book wins Best Picture at the Academy Awards."
     },
     {
-        "date": "April 26, 2019",
-        "eventDescription": "\"Avengers: Endgame\" becomes the highest-grossing film of all time.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0d/Avengers_Endgame_poster.jpg/800px-Avengers_Endgame_poster.jpg"
+        "date": "April 15, 2019",
+        "eventDescription": "A fire devastates Notre-Dame Cathedral in Paris."
     },
     {
         "date": "May 6, 2019",
-        "eventDescription": "The Met Gala theme \"Camp: Notes on Fashion\" dominates social media.",
-        "eventImage": ""
+        "eventDescription": "The first image of a black hole is revealed by scientists."
     },
     {
-        "date": "May 19, 2019",
-        "eventDescription": "The final episode of \"Game of Thrones\" airs.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d8/Game_of_Thrones_title_card.jpg/800px-Game_of_Thrones_title_card.jpg"
-    },
-    {
-        "date": "July 7, 2019",
-        "eventDescription": "The U.S. Women’s Soccer Team wins the FIFA Women's World Cup.",
-        "eventImage": ""
+        "date": "June 30, 2019",
+        "eventDescription": "Donald Trump becomes the first U.S. president to enter North Korea."
     },
     {
         "date": "July 24, 2019",
-        "eventDescription": "\"Old Town Road\" by Lil Nas X sets a record for longest-running #1 single.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3b/Lil_Nas_X_-_Old_Town_Road_%28Official_Movie%29_featuring_Billy_Ray_Cyrus.png/800px-Lil_Nas_X_-_Old_Town_Road_%28Official_Movie%29_featuring_Billy_Ray_Cyrus.png"
+        "eventDescription": "Boris Johnson becomes Prime Minister of the United Kingdom."
     },
     {
-        "date": "October 2, 2019",
-        "eventDescription": "\"Joker,\" starring Joaquin Phoenix, premieres.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e1/Joker_%282019_film%29_poster.jpg/800px-Joker_%282019_film%29_poster.jpg"
+        "date": "August 19, 2019",
+        "eventDescription": "The Amazon rainforest fires gain worldwide attention."
     },
     {
-        "date": "December 20, 2019",
-        "eventDescription": "\"The Rise of Skywalker\" concludes the Star Wars sequel trilogy.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/en/thumb/a/af/Star_Wars_The_Rise_of_Skywalker_poster.jpg/800px-Star_Wars_The_Rise_of_Skywalker_poster.jpg"
+        "date": "October 18, 2019",
+        "eventDescription": "NASA conducts the first all-female spacewalk."
+    },
+    {
+        "date": "November 13, 2019",
+        "eventDescription": "Venice experiences its worst flooding in over 50 years."
+    },
+    {
+        "date": "December 31, 2019",
+        "eventDescription": "China reports the first cases of COVID-19 in Wuhan."
+    },
+    {
+        "date": "January 8, 2020",
+        "eventDescription": "Prince Harry and Meghan Markle announce they are stepping back from royal duties."
     },
     {
         "date": "January 26, 2020",
-        "eventDescription": "Kobe Bryant and his daughter Gianna tragically die in a helicopter crash.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Kobe_Bryant_in_2013.jpg/800px-Kobe_Bryant_in_2013.jpg"
+        "eventDescription": "NBA legend Kobe Bryant dies in a helicopter crash."
+    },
+    {
+        "date": "February 9, 2020",
+        "eventDescription": "Parasite becomes the first non-English-language film to win Best Picture at the Oscars."
     },
     {
         "date": "March 11, 2020",
-        "eventDescription": "The WHO declares COVID-19 a global pandemic.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/COVID-19_Outbreak_World_Map_per_Capita.svg/800px-COVID-19_Outbreak_World_Map_per_Capita.svg.png"
+        "eventDescription": "The WHO declares COVID-19 a global pandemic."
     },
     {
         "date": "May 25, 2020",
-        "eventDescription": "George Floyd's death sparks global protests against police brutality.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/George_Floyd_mural_Minneapolis_2.jpg/800px-George_Floyd_mural_Minneapolis_2.jpg"
+        "eventDescription": "George Floyd is killed by police in Minneapolis, sparking global protests."
     },
     {
-        "date": "August 28, 2020",
-        "eventDescription": "\"Black Panther\" star Chadwick Boseman passes away from cancer.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Chadwick_Boseman_by_Gage_Skidmore_2.jpg/800px-Chadwick_Boseman_by_Gage_Skidmore_2.jpg"
+        "date": "June 15, 2020",
+        "eventDescription": "India and China clash at their disputed Himalayan border."
     },
     {
-        "date": "November 7, 2020",
-        "eventDescription": "Joe Biden is declared the 46th President of the United States.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Joe_Biden_presidential_portrait.jpg/800px-Joe_Biden_presidential_portrait.jpg"
+        "date": "July 7, 2020",
+        "eventDescription": "The Black Lives Matter movement organizes massive protests globally."
     },
     {
-        "date": "December 11, 2020",
-        "eventDescription": "The first COVID-19 vaccine is authorized for emergency use in the U.S.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/First_COVID-19_vaccine_authorized_for_use_in_the_US.jpg/800px-First_COVID-19_vaccine_authorized_for_use_in_the_US.jpg"
+        "date": "August 4, 2020",
+        "eventDescription": "A massive explosion in Beirut kills over 200 people and injures thousands."
+    },
+    {
+        "date": "November 3, 2020",
+        "eventDescription": "Joe Biden defeats Donald Trump in the U.S. presidential election."
+    },
+    {
+        "date": "December 14, 2020",
+        "eventDescription": "The first COVID-19 vaccines are administered in the U.K."
     },
     {
         "date": "January 6, 2021",
-        "eventDescription": "The U.S. Capitol is stormed by rioters.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/2021_storming_of_the_United_States_Capitol_%28cropped%29.jpg/800px-2021_storming_of_the_United_States_Capitol_%28cropped%29.jpg"
+        "eventDescription": "The U.S. Capitol is stormed by protesters attempting to overturn the presidential election results."
     },
     {
-        "date": "July 23, 2021",
-        "eventDescription": "The delayed Tokyo 2020 Olympics begin with limited spectators.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b7/2020_Summer_Olympics_logo.svg/800px-2020_Summer_Olympics_logo.svg.png"
+        "date": "January 20, 2021",
+        "eventDescription": "Joe Biden is inaugurated as the 46th President of the United States."
+    },
+    {
+        "date": "March 23, 2021",
+        "eventDescription": "The Ever Given container ship becomes stuck in the Suez Canal, disrupting global trade."
+    },
+    {
+        "date": "April 9, 2021",
+        "eventDescription": "Prince Philip, Duke of Edinburgh, dies at age 99."
+    },
+    {
+        "date": "July 11, 2021",
+        "eventDescription": "Italy wins the UEFA European Championship, defeating England in a penalty shootout."
+    },
+    {
+        "date": "July 20, 2021",
+        "eventDescription": "Jeff Bezos travels to space aboard Blue Origin’s New Shepard."
     },
     {
         "date": "August 15, 2021",
-        "eventDescription": "Kabul falls to the Taliban as U.S. forces withdraw from Afghanistan.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Kabul_falls_to_the_Taliban_2021.jpg/800px-Kabul_falls_to_the_Taliban_2021.jpg"
+        "eventDescription": "The Taliban seize control of Kabul, Afghanistan, marking the end of U.S. military involvement."
     },
     {
-        "date": "September 3, 2021",
-        "eventDescription": "\"Shang-Chi and the Legend of the Ten Rings\" premieres, breaking pandemic box office records.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ab/Shang-Chi_and_the_Legend_of_the_Ten_Rings_poster.jpg/800px-Shang-Chi_and_the_Legend_of_the_Ten_Rings_poster.jpg"
+        "date": "October 4, 2021",
+        "eventDescription": "Facebook, Instagram, and WhatsApp experience a global outage."
     },
     {
-        "date": "October 29, 2021",
-        "eventDescription": "Facebook announces its rebranding to Meta.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Meta_Platforms_Inc._logo.svg/800px-Meta_Platforms_Inc._logo.svg.png"
+        "date": "November 2, 2021",
+        "eventDescription": "The COP26 climate summit opens in Glasgow, Scotland."
+    },
+    {
+        "date": "December 8, 2021",
+        "eventDescription": "The first known Omicron COVID-19 case is confirmed in the U.K."
+    },
+    {
+        "date": "February 4, 2022",
+        "eventDescription": "The Winter Olympics open in Beijing, China."
     },
     {
         "date": "February 24, 2022",
-        "eventDescription": "Russia invades Ukraine, triggering a global crisis.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/2022_Russian_invasion_of_Ukraine.svg/800px-2022_Russian_invasion_of_Ukraine.svg.png"
+        "eventDescription": "Russia invades Ukraine, escalating the conflict and sparking global condemnation."
     },
     {
         "date": "March 27, 2022",
-        "eventDescription": "Will Smith slaps Chris Rock at the Oscars, becoming a viral moment.",
-        "eventImage": ""
+        "eventDescription": "Will Smith slaps Chris Rock during the Academy Awards, causing widespread controversy."
     },
     {
-        "date": "June 2-5, 2022",
-        "eventDescription": "Queen Elizabeth II’s Platinum Jubilee is celebrated across the UK.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Elizabeth_II_Platinum_Jubilee_2022.jpg/800px-Elizabeth_II_Platinum_Jubilee_2022.jpg"
+        "date": "May 6, 2022",
+        "eventDescription": "NASA confirms the successful deployment of the James Webb Space Telescope."
+    },
+    {
+        "date": "May 24, 2022",
+        "eventDescription": "A mass shooting at Robb Elementary School in Uvalde, Texas, kills 21 people."
+    },
+    {
+        "date": "June 24, 2022",
+        "eventDescription": "The U.S. Supreme Court overturns Roe v. Wade, ending federal protections for abortion rights."
     },
     {
         "date": "September 8, 2022",
-        "eventDescription": "Queen Elizabeth II passes away, marking the end of her historic reign.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Queen_Elizabeth_II_in_March_2015.jpg/800px-Queen_Elizabeth_II_in_March_2015.jpg"
+        "eventDescription": "Queen Elizabeth II dies at Balmoral Castle after a 70-year reign."
     },
     {
-        "date": "November 20, 2022",
-        "eventDescription": "The FIFA World Cup begins in Qatar.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/en/thumb/1/18/2022_FIFA_World_Cup_poster.svg/800px-2022_FIFA_World_Cup_poster.svg.png"
+        "date": "September 10, 2022",
+        "eventDescription": "King Charles III is officially proclaimed King of the United Kingdom."
     },
     {
-        "date": "December 16, 2022",
-        "eventDescription": "\"Avatar: The Way of Water\" is released, continuing James Cameron’s saga.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/en/thumb/5/58/Avatar_The_Way_of_Water_poster.jpg/800px-Avatar_The_Way_of_Water_poster.jpg"
+        "date": "November 15, 2022",
+        "eventDescription": "The global population reaches 8 billion people."
+    },
+    {
+        "date": "December 18, 2022",
+        "eventDescription": "Argentina wins the FIFA World Cup, defeating France in a penalty shootout."
+    },
+    {
+        "date": "February 6, 2023",
+        "eventDescription": "A magnitude 7.8 earthquake strikes Turkey and Syria, killing tens of thousands."
     },
     {
         "date": "May 6, 2023",
-        "eventDescription": "King Charles III is crowned at Westminster Abbey.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Coronation_Procession_of_Charles_III_and_Camilla.jpg/1024px-Coronation_Procession_of_Charles_III_and_Camilla.jpg"
+        "eventDescription": "King Charles III is crowned in Westminster Abbey."
     },
     {
-        "date": "July 21, 2023",
-        "eventDescription": "\"Barbie\" and \"Oppenheimer\" are released on the same day, sparking the \"Barbenheimer\" phenomenon.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1e/Barbie_%282023_film%29_poster.jpg/800px-Barbie_%282023_film%29_poster.jpg"
+        "date": "May 28, 2023",
+        "eventDescription": "Erdogan wins Turkey's presidential election runoff."
     },
     {
-        "date": "September 12, 2023",
-        "eventDescription": "Apple unveils the iPhone 15 with USB-C connectivity.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/IPhone_15_Pro_lineup.jpg/800px-IPhone_15_Pro_lineup.jpg"
+        "date": "June 5, 2023",
+        "eventDescription": "The Apple Vision Pro augmented reality headset is unveiled."
+    },
+    {
+        "date": "July 3, 2023",
+        "eventDescription": "Global temperatures reach a record high."
     },
     {
         "date": "August 23, 2023",
-        "eventDescription": "India becomes the fourth country to successfully land on the Moon with its Chandrayaan-3 mission.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Chandrayaan-3_landing_site.jpg/800px-Chandrayaan-3_landing_site.jpg"
+        "eventDescription": "India successfully lands its Chandrayaan-3 spacecraft on the Moon's south pole."
     },
     {
-        "date": "October 4, 2023",
-        "eventDescription": "NASA’s OSIRIS-REx mission successfully delivers asteroid samples from Bennu to Earth.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/OSIRIS-REx_sampling_Bennu.jpg/800px-OSIRIS-REx_sampling_Bennu.jpg"
+        "date": "September 4, 2023",
+        "eventDescription": "Burning Man attendees are stranded in Nevada after extreme weather conditions."
+    },
+    {
+        "date": "October 7, 2023",
+        "eventDescription": "Hamas launches a surprise attack on Israel, leading to escalating conflict."
     },
     {
         "date": "November 11, 2023",
-        "eventDescription": "Taylor Swift’s \"Eras Tour\" becomes the highest-grossing tour of all time.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Taylor_Swift_during_the_Eras_Tour_in_2023_%28cropped%29.png/800px-Taylor_Swift_during_the_Eras_Tour_in_2023_%28cropped%29.png"
+        "eventDescription": "COP28 climate conference opens in Dubai, focusing on global climate action."
     },
     {
-        "date": "November 15, 2023",
-        "eventDescription": "OpenAI launches GPT-4 Turbo, advancing conversational AI.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/OpenAI_Logo.svg/800px-OpenAI_Logo.svg.png"
-    },
-    {
-        "date": "January 1, 2024",
-        "eventDescription": "The European Union’s Digital Services Act takes full effect, regulating tech giants.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/European_Union_flag.svg/800px-European_Union_flag.svg.png"
-    },
-    {
-        "date": "February 4, 2024",
-        "eventDescription": "The Winter Youth Olympic Games begin in Gangwon, South Korea.",
-        "eventImage": ""
-    },
-    {
-        "date": "April 8, 2024",
-        "eventDescription": "A rare total solar eclipse crosses parts of North America.",
-        "eventImage": ""
-    },
-    {
-        "date": "May 26, 2024",
-        "eventDescription": "The 2024 UEFA Champions League final is held in London at Wembley Stadium.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bf/UEFA_Champions_League_logo_2.svg/800px-UEFA_Champions_League_logo_2.svg.png"
-    },
-    {
-        "date": "June 6, 2024",
-        "eventDescription": "Apple reveals its AR/VR headset, Vision Pro, finally set to launch.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Apple_Vision_Pro.jpg/800px-Apple_Vision_Pro.jpg"
-    },
-    {
-        "date": "July 26, 2024",
-        "eventDescription": "The 2024 Summer Olympics open in Paris, marking the centennial of the 1924 Games.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/en/thumb/9/98/2024_Summer_Olympics_logo.svg/800px-2024_Summer_Olympics_logo.svg.png"
-    },
-    {
-        "date": "September 12, 2024",
-        "eventDescription": "NASA launches its next lunar mission under the Artemis program.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Artemis_I_patch.svg/800px-Artemis_I_patch.svg.png"
-    },
-    {
-        "date": "October 31, 2024",
-        "eventDescription": "The world celebrates the 100th anniversary of Walt Disney Studios.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2d/Walt_Disney_Studios_logo.svg/800px-Walt_Disney_Studios_logo.svg.png"
-    },
-    {
-        "date": "January 1, 1994",
-        "eventDescription": "The North American Free Trade Agreement (NAFTA) goes into effect.",
-        "eventImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/NAFTA_signing.jpg/800px-NAFTA_signing.jpg"
+        "date": "December 5, 2023",
+        "eventDescription": "OpenAI announces GPT-5, a major advancement in AI technology."
     }
 ].filter(event => event.eventImage && event.date);
